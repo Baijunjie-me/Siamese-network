@@ -36,7 +36,7 @@ def train(args):
         model.cuda()
     loss_fn = ContrastiveLoss(margin)
     # lr = 1e-3
-    optimizer = optim.Adam(model.parameters(), lr=args.lr)
+    optimizer = optim.Adam(model.parameters(), lr = args.lr)
     scheduler = lr_scheduler.StepLR(optimizer, 8, gamma=0.1, last_epoch=-1)
     # args.epoch = 20
     log_interval = 100
