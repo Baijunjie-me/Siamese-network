@@ -5,9 +5,13 @@ from torchvision import transforms
 import matplotlib.pyplot as plt
 from datasets import SiameseMNIST
 import torch
+
 from torch.optim import lr_scheduler
 import torch.optim as optim
 cuda = torch.cuda.is_available()
+torch.backends.cudnn.enabled = True
+torch.backends.cudnn.benchmark = True
+
 
 
 mean, std = 0.1307, 0.3081
