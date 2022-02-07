@@ -2,26 +2,26 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchvision.datasets import MNIST
 from torchvision import transforms
-import matplotlib.pyplot as plt
 from datasets import SiameseMNIST
 import torch
 
 from torch.optim import lr_scheduler
 import torch.optim as optim
 cuda = torch.cuda.is_available()
-torch.backends.cudnn.enabled = True
-torch.backends.cudnn.benchmark = True
+cuda = False
+torch.backends.cudnn.enabled = False
+# torch.backends.cudnn.benchmark = True
 
 
 
 mean, std = 0.1307, 0.3081
 
-train_dataset = MNIST('../data/MNIST', train=True, download=False,
+train_dataset = MNIST('../data/MNIST', train=True, download=True,
                              transform=transforms.Compose([
                                  transforms.ToTensor(),
                                  transforms.Normalize((mean,), (std,))
                              ]))
-test_dataset = MNIST('../data/MNIST', train=False, download=False,
+test_dataset = MNIST('../data/MNIST', train=False, download=True,
                             transform=transforms.Compose([
                                 transforms.ToTensor(),
                                 transforms.Normalize((mean,), (std,))
@@ -88,7 +88,7 @@ class SiameseNet(nn.Module):
 siamese_train_dataset = SiameseMNIST(train_dataset) # Returns pairs of images and target same/different
 siamese_test_dataset = SiameseMNIST(test_dataset)
 # print("siamese",siamese_train_dataset[0:10])
-batch_size = 128
+batch_size = 64
 # kwargs = {'num_workers': 1, 'pin_memory': True} if cuda else {}
 siamese_train_loader = torch.utils.data.DataLoader(siamese_train_dataset, batch_size=batch_size, shuffle=True )
 siamese_test_loader = torch.utils.data.DataLoader(siamese_test_dataset, batch_size=batch_size, shuffle=False )
