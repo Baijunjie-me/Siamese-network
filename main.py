@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-'将不是所有的数据用于剪枝测试'
 import argparse
 import os
 import time
@@ -9,21 +8,20 @@ import torch
 import torch.nn as nn
 import logging
 
-# Prune settings
-
-parser = argparse.ArgumentParser(description='PyTorch ISAR Siamese-network')
 " [超参数设置] "
+parser = argparse.ArgumentParser(description='PyTorch ISAR Siamese-network')
+
 parser.add_argument('--data_path', type=str, default=r'',
                     help='ISAR data set file path 【】')
 
 parser.add_argument('--n_train_per_class', type=int, default=50,
-                    help='number of training sample for every class (default: 50)')
+                    help='number of training sample for per class (default: 50)')
 
-parser.add_argument('--nvalPerClass', type=int, default=50,
-                    help='number of val sample for every class (default: 50)')
+parser.add_argument('--n_val_per_class', type=int, default=50,
+                    help='number of val sample for per class (default: 50)')
 
 parser.add_argument('--batch_size', type=int, default=64, metavar='N',
-                    help='input batch size for training (default: 64)')
+                    help='input batch size  (default: 64)')
 
 parser.add_argument('--epoch', type=int, default=100, metavar='N',
                     help='train epoch (default: 100)')
