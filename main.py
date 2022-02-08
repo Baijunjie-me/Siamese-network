@@ -68,7 +68,7 @@ if __name__ == "__main__":
     args.cuda = torch.cuda.is_available()
 
     dataLoader = dataLoader(args)
-    args.train_dataloader, args.val_dataloader, args.test_dataloader = dataLoader.load_mstar_data()
+    args.train_dataloader, args.test_dataloader = dataLoader.load_isar_data()
     # args.train_dataloader, args.val_dataloader, args.test_dataloader = dataLoader.MNIST_data_loader(mean = 0.1307, std = 0.3081)
 
     train(args)
