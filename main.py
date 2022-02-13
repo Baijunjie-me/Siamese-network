@@ -3,13 +3,14 @@ import argparse
 import os
 import time
 from train import *
+from test import *
 import torch
-import torch.nn as nn
 import logging
 from data_loader import dataLoader
 # 用来控制dataload类型
 BY_N_PER_CLASS = 0
 BY_PERCENT_PER_CLASS = 1
+
 
 " [超参数设置] "
 parser = argparse.ArgumentParser(description='PyTorch ISAR Siamese-network')
@@ -40,7 +41,7 @@ parser.add_argument('--lr', type=float, default=0.003, metavar='N',
 parser.add_argument('--batch_size', type=int, default=64, metavar='N',
                     help='input batch size  (default: 64)')
 
-parser.add_argument('--epoch', type=int, default=100, metavar='N',
+parser.add_argument('--epoch', type=int, default=1, metavar='N',
                     help='train epoch (default: 100)')
 
 parser.add_argument('--best_model_path', type=str, default=r'.\实验结果',
@@ -68,10 +69,23 @@ if __name__ == "__main__":
     args.cuda = torch.cuda.is_available()
 
     dataLoader = dataLoader(args)
+
+
     args.train_dataloader, args.test_dataloader = dataLoader.load_isar_data()
+
+    args.x_train_num = dataLoader.x_train_num
+    args.x_val_num = dataLoader.x_val_num
+    args.x_test_num = dataLoader.x_test_num
+    args.y_train = dataLoader.y_train
+    args.y_val = dataLoader.y_val
+    args.y_test = dataLoader.y_test
+    
+    args.n_class = dataLoader.n_class
+
     # args.train_dataloader, args.val_dataloader, args.test_dataloader = dataLoader.MNIST_data_loader(mean = 0.1307, std = 0.3081)
 
     train(args)
+    test(args)
 
 
 
