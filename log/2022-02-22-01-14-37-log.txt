@@ -1,0 +1,10 @@
+2022-02-22 01:14:37,107 - Siamese network - INFO - ---------------- 超参数记录 ----------------
+2022-02-22 01:14:37,108 - Siamese network - INFO - batch size ：512
+2022-02-22 01:14:37,108 - Siamese network - INFO - training epoch ：100
+2022-02-22 01:14:37,108 - Siamese network - INFO - learning rate ：0.0005
+2022-02-22 01:14:37,108 - Siamese network - INFO - max learning rate ：0.001
+2022-02-22 01:14:37,108 - Siamese network - INFO - min learning rate ：5e-05
+2022-02-22 01:14:37,108 - Siamese network - INFO - train percent per class ：0.2
+2022-02-22 01:15:42,555 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.2004903256893158, lr 0.0001 
+2022-02-22 01:15:45,431 - Siamese network - INFO - train acc 0.6136363636363636 
+2022-02-22 01:15:45,520 - Siamese network - INFO - test | batch idx 0 loss 0.15468241274356842

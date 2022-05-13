@@ -1,0 +1,27 @@
+2022-05-13 20:58:52,735 - Siamese network - INFO - ---------------- 超参数记录 ----------------
+2022-05-13 20:58:52,735 - Siamese network - INFO - batch size ：64
+2022-05-13 20:58:52,735 - Siamese network - INFO - training epoch ：1
+2022-05-13 20:58:52,735 - Siamese network - INFO - learning rate ：0.0005
+2022-05-13 20:58:52,735 - Siamese network - INFO - max learning rate ：0.001
+2022-05-13 20:58:52,735 - Siamese network - INFO - min learning rate ：0.0001
+2022-05-13 20:58:52,735 - Siamese network - INFO - train percent per class ：0.3
+2022-05-13 20:58:55,925 - Siamese network - INFO - test | batch idx 0 loss 0.04451344162225723
+2022-05-13 20:58:57,644 - Siamese network - INFO - test acc 1.0 
+2022-05-13 20:58:58,816 - Siamese network - INFO - test | batch idx 0 loss 0.016125990077853203
+2022-05-13 20:59:00,468 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-05-13 20:59:01,622 - Siamese network - INFO - test | batch idx 0 loss 0.014760883525013924
+2022-05-13 20:59:03,269 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-05-13 20:59:04,399 - Siamese network - INFO - test | batch idx 0 loss 0.03441554307937622
+2022-05-13 20:59:06,060 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-05-13 20:59:07,234 - Siamese network - INFO - test | batch idx 0 loss 0.016111105680465698
+2022-05-13 20:59:08,947 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-05-13 20:59:10,112 - Siamese network - INFO - test | batch idx 0 loss 0.015285063534975052
+2022-05-13 20:59:11,766 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-05-13 20:59:12,931 - Siamese network - INFO - test | batch idx 0 loss 0.07874218374490738
+2022-05-13 20:59:14,626 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-05-13 20:59:15,796 - Siamese network - INFO - test | batch idx 0 loss 0.03504326567053795
+2022-05-13 20:59:17,481 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-05-13 20:59:18,639 - Siamese network - INFO - test | batch idx 0 loss 0.06508387625217438
+2022-05-13 20:59:20,327 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-05-13 20:59:21,474 - Siamese network - INFO - test | batch idx 0 loss 0.01943882554769516
+2022-05-13 20:59:23,156 - Siamese network - INFO - test acc 0.9787234042553191 
