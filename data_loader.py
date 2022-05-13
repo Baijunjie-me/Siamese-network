@@ -45,23 +45,22 @@ class dataLoader(object):
         
         self.shuffle_list = []
 
-    def get_mstar_data(self, width=128, height=128, crop_size=28, aug=False):
+    def get_mstar_data(self, width=128, height=128, crop_size=64, aug=False):
         data_dir = self.data_path
-        sub_dir = ["2S1", "BMP2", "BRDM_2", "BTR60", "BTR70", "D7", "T62", "T72", "ZIL131", "ZSU_23_4"]
+        # sub_dir = ["ann-26", "diploma", "yake"]
+        sub_dir = ["target1", "target2", "target3"]
         X = []
         y = []
 
         for i in range(len(sub_dir)):
             tmp_dir = data_dir + sub_dir[i] + "/"
-            img_idx = [x for x in os.listdir(tmp_dir) if x.endswith(".jpeg")]
+            img_idx = [x for x in os.listdir(tmp_dir) if x.endswith(".jpg")]
             print(sub_dir[i], len(img_idx))
             y += [i] * len(img_idx)
             for j in range(len(img_idx)):
                 img = im.imresize(im.imread((tmp_dir + img_idx[j])), [height, width])
                 img = img[(height - crop_size) // 2: height - (height - crop_size) // 2, \
                       (width - crop_size) // 2: width - (width - crop_size) // 2]
-                # img = img[16:112, 16:112]   # crop
-                # img = img[np.newaxis, :]
                 X.append(img)
         
         return np.asarray(X), np.asarray(y)
@@ -96,10 +95,6 @@ class dataLoader(object):
             x_test.extend(self.x_data[shuffle_list[train_class_num + val_class_num :]])
             y_test.extend(self.y_data[shuffle_list[train_class_num + val_class_num :]])
 
-        # x_train = np.reshape(x_train, (np.shape(x_train)[0], 1, np.shape(x_train)[1], np.shape(x_train)[2]))
-        # x_val= np.reshape(x_val, (np.shape(x_val)[0], 1, np.shape(x_val)[1], np.shape(x_val)[2]))
-        # x_test = np.reshape(x_test, (np.shape(x_test)[0], 1, np.shape(x_test)[1], np.shape(x_test)[2]))
-
         x_train = np.reshape(x_train, (np.shape(x_train)[0], 1, np.shape(x_train)[1], np.shape(x_train)[2]))
         x_val= np.reshape(x_val, (np.shape(x_val)[0], 1, np.shape(x_val)[1], np.shape(x_val)[2]))
         x_test = np.reshape(x_test, (np.shape(x_test)[0], 1, np.shape(x_test)[1], np.shape(x_test)[2]))
@@ -112,9 +107,47 @@ class dataLoader(object):
         self.x_val_num = np.shape(x_val)[0]
         self.x_test_num = np.shape(x_test)[0]
 
-        self.y_train = y_train
-        self.y_val = y_val
-        self.y_test = y_test
+        self.y_train = np.array(y_train).astype(np.uint8)
+        self.y_val = np.array(y_val).astype(np.uint8)
+        self.y_test = np.array(y_test).astype(np.uint8)
+
+    def split_ship_data(self):
+        self.n_class = np.max(self.y_data) + 1
+        (x_train, y_train), (x_val, y_val), (x_test, y_test) = ([], []), ([], []), ([], [])
+        for i in range(self.n_class):
+            shuffle_list = list(np.where(self.y_data == i))[0]
+            train_class_num, val_class_num, test_class_num = self.cal_data_num(np.size(shuffle_list))
+            print("class {} train {} val {} test {}".format(i, train_class_num, val_class_num, test_class_num))
+            np.random.shuffle(shuffle_list)
+            self.shuffle_list.append(shuffle_list)
+            x_train.extend(self.x_data[shuffle_list[: train_class_num]])
+            y_train.extend(self.y_data[shuffle_list[: train_class_num]])
+
+            x_val.extend(self.x_data[shuffle_list[train_class_num : train_class_num + val_class_num]])
+            y_val.extend(self.y_data[shuffle_list[train_class_num : train_class_num + val_class_num]])
+
+            x_test.extend(self.x_data[shuffle_list[train_class_num + val_class_num :]])
+            y_test.extend(self.y_data[shuffle_list[train_class_num + val_class_num :]])
+
+        x_train = np.reshape(x_train, (np.shape(x_train)[0], np.shape(x_train)[1], np.shape(x_train)[2], np.shape(x_train)[3]))
+        # x_val= np.reshape(x_val, (np.shape(x_val)[0], np.shape(x_val)[1], np.shape(x_val)[2], np.shape(x_val)[3]))
+        x_test = np.reshape(x_test, (np.shape(x_test)[0], np.shape(x_test)[1], np.shape(x_test)[2], np.shape(x_test)[3]))
+
+        x_train = x_train.transpose(0, 3, 1, 2)
+        # x_val= x_val.transpose(0, 3, 1, 2)
+        x_test = x_test.transpose(0, 3, 1, 2)
+
+        print("x train shape : {}".format(np.shape(x_train)))
+        print("x val shape : {}".format(np.shape(x_val)))
+        print("x test shape : {}".format(np.shape(x_test)))
+
+        self.x_train_num = np.shape(x_train)[0]
+        self.x_val_num = np.shape(x_val)[0]
+        self.x_test_num = np.shape(x_test)[0]
+
+        self.y_train = np.array(y_train).astype(np.uint8)
+        self.y_val = np.array(y_val).astype(np.uint8)
+        self.y_test = np.array(y_test).astype(np.uint8)
 
 
         return (np.array(x_train).astype(np.float32), np.array(y_train).astype(np.uint8)), \
@@ -132,11 +165,25 @@ class dataLoader(object):
         val_dataset = TensorDataset(torch.tensor(x_val), torch.tensor(y_val))
         test_dataset = TensorDataset(torch.tensor(x_test), torch.tensor(y_test))
 
-        self.train_loader = DataLoader(train_dataset, batch_size=self.train_batch_size)
-        self.val_loader = DataLoader(val_dataset, batch_size=self.val_batch_size)
-        self.test_loader = DataLoader(test_dataset, batch_size=self.test_batch_size)
+        self.train_loader = DataLoader(train_dataset, batch_size=self.train_batch_size, num_workers=16, pin_memory=True)
+        self.val_loader = DataLoader(val_dataset, batch_size=self.val_batch_size, num_workers=16, pin_memory=True)
+        self.test_loader = DataLoader(test_dataset, batch_size=self.test_batch_size, num_workers=16, pin_memory=True)
 
         return self.train_loader, self.val_loader, self.test_loader
+
+    def load_ship_data(self):
+        self.x_data, self.y_data = self.get_mstar_data()
+        (self.x_train, self.y_train), (self.x_val, self.y_val), (self.x_test, self.y_test) = self.split_ship_data()
+
+        print('data shape is {}'.format(np.shape(self.x_train)))
+
+        train_dataset = self.create_dataset(self.x_train, self.y_train)
+        test_dataset = self.create_dataset(self.x_test, self.y_test)
+
+        self.train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=self.train_batch_size, shuffle=True)
+        self.test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=self.test_batch_size, shuffle=True)
+
+        return self.train_loader, self.test_loader
 
     def load_isar_data(self):
         self.x_data, self.y_data = self.get_mstar_data()
@@ -164,13 +211,17 @@ class dataLoader(object):
         # 根据label索引训练集所有样本
         digit_indices_train = [np.where(self.y_train == i)[0] for i in range(self.n_class)]  # np.where()返   
 
-        # 对于每一个样本和训练集的每个样本配对
+        # 对于每一个样本和训练集的percent样本配对
         idx0 = 0
+        percent = 1.0
+
         for data0, label0 in zip(data, label):
-            # 同类            
+            # 同类样本对
             same_class_idx = digit_indices_train[label0]
 
-            for _, idx1 in enumerate(same_class_idx):
+            for i, idx1 in enumerate(same_class_idx):
+                if i > int(len(same_class_idx) * percent):
+                    break
                 if idx1 == idx0:
                     # 同类可能会和自己匹配到，idx相同时，continue
                     continue
@@ -183,19 +234,21 @@ class dataLoader(object):
                 x1_data_list.append(data1)
                 label1_list.append(label1)
                 
-                target_list.append(1) # 同类为1
+                target_list.append(1) # 同类 target为1
                 data0_idx_list.append(idx0)
+
 
             # 所有的异类匹配
             for label1 in range(self.n_class):
                 if label1 == label0:
                     # 和自己的类别匹配时，continue
                     continue
-
                 diff_class_idx = digit_indices_train[label1]
 
-                for _, idx1 in enumerate(diff_class_idx):
-    
+                for i, idx1 in enumerate(diff_class_idx):
+                    if i > int(len(diff_class_idx) * percent):
+                        break
+
                     data1 = self.x_train[idx1]
                     label1 = self.y_train[idx1]
                     
@@ -211,9 +264,10 @@ class dataLoader(object):
             idx0 += 1
 
         x0_data = np.array(x0_data_list, dtype=np.float32)
-        x0_data = x0_data.reshape([-1, 1, 28, 28])
+        sz =np.shape(x0_data)
+        x0_data = x0_data.reshape(sz)
         x1_data = np.array(x1_data_list, dtype=np.float32)
-        x1_data = x1_data.reshape([-1, 1, 28, 28])
+        x1_data = x1_data.reshape(sz)
         label0 = np.array(label0_list, dtype=np.int32)
         label1 = np.array(label1_list, dtype=np.int32)
         target = np.array(target_list, dtype=np.int32)
@@ -271,8 +325,6 @@ class Dataset(torch.utils.data.Dataset):
 
     def __len__(self):
         return self.size
-
-
 
 
 class SiameseMNIST(Dataset):

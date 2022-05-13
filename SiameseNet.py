@@ -21,17 +21,22 @@ class ContrastiveLoss(nn.Module):
 class EmbeddingNet(nn.Module):
     def __init__(self):
         super(EmbeddingNet, self).__init__()
-        self.convnet = nn.Sequential(nn.Conv2d(1, 32, 5),
-                                     nn.PReLU(),
+        self.convnet = nn.Sequential(nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3),
+                                     nn.BatchNorm2d(32), nn.PReLU(),
+                                     nn.Dropout(0.5),
                                      nn.MaxPool2d(2, stride=2),
-                                     nn.Conv2d(32, 64, 5), nn.PReLU(),
-                                     nn.MaxPool2d(2, stride=2))
+                                     nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3),
+                                     nn.BatchNorm2d(64), nn.PReLU(),
+                                     nn.Dropout(0.5),
+                                     nn.MaxPool2d(2, stride=2),
+                                     nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3),
+                                     nn.MaxPool2d(2, stride=2), )
 
-        self.fc = nn.Sequential(nn.Linear(64 * 4 * 4, 256),
+        self.fc = nn.Sequential(nn.Linear(4608, 1024),
                                 nn.PReLU(),
-                                nn.Linear(256, 256),
+                                nn.Linear(1024, 512),
                                 nn.PReLU(),
-                                nn.Linear(256, 2)
+                                nn.Linear(512, 2),
                                 )
 
     def forward(self, x):
