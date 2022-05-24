@@ -1,29 +1,5 @@
 import torch.nn as nn
 import torch.nn.functional as F
-from torchvision.datasets import MNIST
-from torchvision import transforms
-import matplotlib.pyplot as plt
-from datasets import SiameseMNIST
-import torch
-from torch.optim import lr_scheduler
-import torch.optim as optim
-cuda = torch.cuda.is_available()
-
-
-mean, std = 0.1307, 0.3081
-
-train_dataset = MNIST('../data/MNIST', train=True, download=False,
-                             transform=transforms.Compose([
-                                 transforms.ToTensor(),
-                                 transforms.Normalize((mean,), (std,))
-                             ]))
-test_dataset = MNIST('../data/MNIST', train=False, download=False,
-                            transform=transforms.Compose([
-                                transforms.ToTensor(),
-                                transforms.Normalize((mean,), (std,))
-                            ]))
-n_classes = 10
-
 
 class ContrastiveLoss(nn.Module):
     """
@@ -45,17 +21,22 @@ class ContrastiveLoss(nn.Module):
 class EmbeddingNet(nn.Module):
     def __init__(self):
         super(EmbeddingNet, self).__init__()
-        self.convnet = nn.Sequential(nn.Conv2d(1, 32, 5),
-                                     nn.PReLU(),
+        self.convnet = nn.Sequential(nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3),
+                                     nn.BatchNorm2d(32), nn.PReLU(),
+                                     nn.Dropout(0.5),
                                      nn.MaxPool2d(2, stride=2),
-                                     nn.Conv2d(32, 64, 5), nn.PReLU(),
-                                     nn.MaxPool2d(2, stride=2))
+                                     nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3),
+                                     nn.BatchNorm2d(64), nn.PReLU(),
+                                     nn.Dropout(0.5),
+                                     nn.MaxPool2d(2, stride=2),
+                                     nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3),
+                                     nn.MaxPool2d(2, stride=2), )
 
-        self.fc = nn.Sequential(nn.Linear(64 * 4 * 4, 256),
+        self.fc = nn.Sequential(nn.Linear(4608, 1024),
                                 nn.PReLU(),
-                                nn.Linear(256, 256),
+                                nn.Linear(1024, 512),
                                 nn.PReLU(),
-                                nn.Linear(256, 2)
+                                nn.Linear(512, 2),
                                 )
 
     def forward(self, x):
@@ -81,84 +62,6 @@ class SiameseNet(nn.Module):
         return self.embedding_net(x)
 
 
-siamese_train_dataset = SiameseMNIST(train_dataset) # Returns pairs of images and target same/different
-siamese_test_dataset = SiameseMNIST(test_dataset)
-# print("siamese",siamese_train_dataset[0:10])
-batch_size = 128
-# kwargs = {'num_workers': 1, 'pin_memory': True} if cuda else {}
-siamese_train_loader = torch.utils.data.DataLoader(siamese_train_dataset, batch_size=batch_size, shuffle=True )
-siamese_test_loader = torch.utils.data.DataLoader(siamese_test_dataset, batch_size=batch_size, shuffle=False )
-
-margin = 1.
-embedding_net = EmbeddingNet()
-model = SiameseNet(embedding_net)
-if cuda:
-    model.cuda()
-loss_fn = ContrastiveLoss(margin)
-lr = 1e-3
-optimizer = optim.Adam(model.parameters(), lr=lr)
-scheduler = lr_scheduler.StepLR(optimizer, 8, gamma=0.1, last_epoch=-1)
-n_epochs = 20
-log_interval = 100
-
-#fit(siamese_train_loader, siamese_test_loader, model, loss_fn, optimizer, scheduler, n_epochs, cuda, log_interval)
-for epoch in range(0,n_epochs):
-    for batch_idx, (data, target) in enumerate(siamese_train_loader):
-        # print("data",data)
-        # print("target",target)
-
-        target = target if len(target) > 0 else None
-        if not type(data) in (tuple, list):
-            data = (data,)
-        if cuda:
-            data = tuple(d.cuda() for d in data)
-            if target is not None:
-                target = target.cuda()
-
-
-        optimizer.zero_grad()
-        outputs = model(*data)
-
-        if type(outputs) not in (tuple, list):
-            outputs = (outputs,)
-
-        loss_inputs = outputs
-        if target is not None:
-            target = (target,)
-            loss_inputs += target
-
-        loss_outputs = loss_fn(*loss_inputs)
-        loss = loss_outputs[0] if type(loss_outputs) in (tuple, list) else loss_outputs
-        # losses.append(loss.item())
-        # total_loss += loss.item()
-        loss.backward()
-        optimizer.step()
-
-        if batch_idx % log_interval == 0:
-             total_loss=loss.item()
-             print('Epoch: ', epoch,'batch:',batch_idx, '| train loss: %.4f' % total_loss)
-
-
-for epoch in range(0,1):
-    for batch_idx,(data,target) in enumerate(siamese_test_loader):
-        if cuda:
-            data = tuple(d.cuda() for d in data)
-            if target is not None:
-                target = target.cuda()
-        outputs=model(*data)
-        # loss.backward()
-        if type(outputs) not in (tuple, list):
-            outputs = (outputs,)
-        loss_inputs = outputs
-        if target is not None:
-            target = (target,)
-            loss_inputs += target
-
-        loss_outputs = loss_fn(*loss_inputs)
-
-        if batch_idx % log_interval == 0:
-             total_loss=loss.item()
-             print('Epoch: ', epoch,'batch:',batch_idx, '| train loss: %.4f' % total_loss)
 
 
 

@@ -1,0 +1,1627 @@
+2022-03-03 11:10:41,869 - Siamese network - INFO - ---------------- 超参数记录 ----------------
+2022-03-03 11:10:41,870 - Siamese network - INFO - batch size ：64
+2022-03-03 11:10:41,870 - Siamese network - INFO - training epoch ：100
+2022-03-03 11:10:41,870 - Siamese network - INFO - learning rate ：0.0005
+2022-03-03 11:10:41,870 - Siamese network - INFO - max learning rate ：0.001
+2022-03-03 11:10:41,870 - Siamese network - INFO - min learning rate ：0.0001
+2022-03-03 11:10:41,870 - Siamese network - INFO - train percent per class ：0.3
+2022-03-03 11:10:46,284 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.29715365171432495, lr 0.001 
+2022-03-03 11:10:47,874 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:10:47,905 - Siamese network - INFO - test | batch idx 0 loss 0.029847033321857452
+2022-03-03 11:10:49,463 - Siamese network - INFO - test acc 0.9468085106382979 
+2022-03-03 11:10:49,545 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.015567331574857235, lr 0.0009997779521645793 
+2022-03-03 11:10:51,139 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.0014944206923246384, lr 0.0009991120277927223 
+2022-03-03 11:10:52,786 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0019482311327010393, lr 0.000998002884071386 
+2022-03-03 11:10:54,415 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.0013271650532260537, lr 0.000996451615591515 
+2022-03-03 11:10:56,017 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0011456343345344067, lr 0.000994459753267812 
+2022-03-03 11:10:57,552 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:10:57,587 - Siamese network - INFO - test | batch idx 0 loss 0.004749860614538193
+2022-03-03 11:10:59,157 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:10:59,242 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.00096467777621001, lr 0.00099202926282791 
+2022-03-03 11:11:00,925 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0007314130198210478, lr 0.0009891625428724363 
+2022-03-03 11:11:02,663 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.0007984061376191676, lr 0.000985862422507884 
+2022-03-03 11:11:04,307 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.0006984676001593471, lr 0.0009821321585546244 
+2022-03-03 11:11:05,983 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0005001701065339148, lr 0.0009779754323328191 
+2022-03-03 11:11:07,500 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:11:07,534 - Siamese network - INFO - test | batch idx 0 loss 0.004624733701348305
+2022-03-03 11:11:09,048 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:11:09,126 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.0007753834361210465, lr 0.0009733963460294015 
+2022-03-03 11:11:10,758 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.00032798980828374624, lr 0.0009683994186497131 
+2022-03-03 11:11:12,358 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.0002699277247302234, lr 0.0009629895815577914 
+2022-03-03 11:11:14,037 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.0003716861829161644, lr 0.0009571721736097088 
+2022-03-03 11:11:15,625 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.000445329409558326, lr 0.0009509529358847655 
+2022-03-03 11:11:17,160 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:11:17,193 - Siamese network - INFO - test | batch idx 0 loss 0.0017012495081871748
+2022-03-03 11:11:18,710 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:11:18,790 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.00023843634699005634, lr 0.0009443380060197386 
+2022-03-03 11:11:20,397 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.0001969916047528386, lr 0.0009373339121517746 
+2022-03-03 11:11:22,014 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.00021608923270832747, lr 0.0009299475664759069 
+2022-03-03 11:11:23,629 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.00028040612232871354, lr 0.0009221862584235528 
+2022-03-03 11:11:25,306 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.0004064521344844252, lr 0.0009140576474687263 
+2022-03-03 11:11:26,863 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:11:26,899 - Siamese network - INFO - test | batch idx 0 loss 0.003606682876124978
+2022-03-03 11:11:28,427 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:11:28,511 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.00014993127842899412, lr 0.0009055697555690607 
+2022-03-03 11:11:30,131 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.00012105658242944628, lr 0.0008967309592491052 
+2022-03-03 11:11:31,746 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.00016212445916607976, lr 0.0008875499813337069 
+2022-03-03 11:11:33,353 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.00026641576550900936, lr 0.0008780358823396353 
+2022-03-03 11:11:34,963 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.00012951820099260658, lr 0.0008681980515339464 
+2022-03-03 11:11:36,525 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:11:36,558 - Siamese network - INFO - test | batch idx 0 loss 0.002022402361035347
+2022-03-03 11:11:38,229 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:11:38,317 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.00030065770260989666, lr 0.0008580461976679099 
+2022-03-03 11:11:39,932 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 0.00026866793632507324, lr 0.0008475903393956434 
+2022-03-03 11:11:41,539 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 0.0001740062580211088, lr 0.0008368407953869105 
+2022-03-03 11:11:43,142 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 0.00014398952771443874, lr 0.0008258081741438395 
+2022-03-03 11:11:44,742 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 0.000133273919345811, lr 0.0008145033635316131 
+2022-03-03 11:11:46,274 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:11:46,307 - Siamese network - INFO - test | batch idx 0 loss 0.02066223882138729
+2022-03-03 11:11:47,894 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:11:47,980 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.00023266366042662412, lr 0.0008029375200334589 
+2022-03-03 11:11:49,626 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 5.994773891870864e-05, lr 0.0007911220577405485 
+2022-03-03 11:11:51,315 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 0.0002047657617367804, lr 0.0007790686370876671 
+2022-03-03 11:11:53,021 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 0.000337353500071913, lr 0.0007667891533457719 
+2022-03-03 11:11:54,631 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 0.00031082419445738196, lr 0.000754295724882796 
+2022-03-03 11:11:56,149 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:11:56,185 - Siamese network - INFO - test | batch idx 0 loss 0.034949518740177155
+2022-03-03 11:11:57,711 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:11:57,796 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 0.00013201357796788216, lr 0.0007416006812042827 
+2022-03-03 11:11:59,417 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 0.00022097733744885772, lr 0.0007287165507856513 
+2022-03-03 11:12:01,037 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 0.00024598691379651427, lr 0.0007156560487081052 
+2022-03-03 11:12:02,674 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 0.00015686567348893732, lr 0.0007024320641103813 
+2022-03-03 11:12:04,345 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 5.986935502733104e-05, lr 0.0006890576474687264 
+2022-03-03 11:12:05,916 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:12:05,952 - Siamese network - INFO - test | batch idx 0 loss 0.041697289794683456
+2022-03-03 11:12:07,537 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:12:07,622 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 8.705059008207172e-05, lr 0.0006755459977176532 
+2022-03-03 11:12:09,254 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 0.0005245277425274253, lr 0.0006619104492241846 
+2022-03-03 11:12:10,871 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 0.00014644968905486166, lr 0.0006481644586284443 
+2022-03-03 11:12:12,481 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 0.00011222472676308826, lr 0.0006343215915635762 
+2022-03-03 11:12:14,090 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 4.920113497064449e-05, lr 0.000620395509268104 
+2022-03-03 11:12:15,610 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:12:15,647 - Siamese network - INFO - test | batch idx 0 loss 0.0027664077933877707
+2022-03-03 11:12:17,169 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:12:17,253 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 7.417207962134853e-05, lr 0.000606399955103937 
+2022-03-03 11:12:18,915 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 4.5138964196667075e-05, lr 0.0005923487409933315 
+2022-03-03 11:12:20,530 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 0.00014279103197623044, lr 0.0005782557337881911 
+2022-03-03 11:12:22,147 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 4.719669959740713e-05, lr 0.0005641348415851578 
+2022-03-03 11:12:23,754 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 9.388761827722192e-05, lr 0.00055 
+2022-03-03 11:12:25,272 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:12:25,305 - Siamese network - INFO - test | batch idx 0 loss 0.0006476060370914638
+2022-03-03 11:12:26,860 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:12:26,940 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 5.112589133204892e-05, lr 0.0005358651584148423 
+2022-03-03 11:12:28,555 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 6.501378811663017e-05, lr 0.000521744266211809 
+2022-03-03 11:12:30,198 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 6.9626301410608e-05, lr 0.0005076512590066686 
+2022-03-03 11:12:31,843 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 0.00012808822793886065, lr 0.0004936000448960632 
+2022-03-03 11:12:33,514 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 0.00010363187175244093, lr 0.0004796044907318961 
+2022-03-03 11:12:35,068 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:12:35,105 - Siamese network - INFO - test | batch idx 0 loss 0.0005822980310767889
+2022-03-03 11:12:36,692 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:12:36,781 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 5.0969651056220755e-05, lr 0.0004656784084364239 
+2022-03-03 11:12:38,426 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 8.29059281386435e-05, lr 0.00045183554137155597 
+2022-03-03 11:12:40,076 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 2.7736990887206048e-05, lr 0.0004380895507758153 
+2022-03-03 11:12:41,774 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 3.1100866181077436e-05, lr 0.00042445400228234684 
+2022-03-03 11:12:43,536 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 6.264620606089011e-05, lr 0.0004109423525312738 
+2022-03-03 11:12:45,162 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:12:45,199 - Siamese network - INFO - test | batch idx 0 loss 0.0005592115921899676
+2022-03-03 11:12:46,798 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:12:46,883 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 3.147947427351028e-05, lr 0.0003975679358896189 
+2022-03-03 11:12:48,559 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 6.636102625634521e-05, lr 0.000384343951291895 
+2022-03-03 11:12:50,184 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 5.9951380535494536e-05, lr 0.00037128344921434864 
+2022-03-03 11:12:51,807 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 4.7293091483879834e-05, lr 0.0003583993187957173 
+2022-03-03 11:12:53,437 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 5.2148836402921006e-05, lr 0.00034570427511720393 
+2022-03-03 11:12:55,057 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:12:55,094 - Siamese network - INFO - test | batch idx 0 loss 0.004550819285213947
+2022-03-03 11:12:56,665 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:12:56,752 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 1.3460608897730708e-05, lr 0.0003332108466542281 
+2022-03-03 11:12:58,455 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 3.164421286783181e-05, lr 0.0003209313629123329 
+2022-03-03 11:13:00,129 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 3.1801147997612134e-05, lr 0.0003088779422594514 
+2022-03-03 11:13:01,804 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 3.6499091947916895e-05, lr 0.0002970624799665412 
+2022-03-03 11:13:03,439 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 4.563050970318727e-05, lr 0.00028549663646838715 
+2022-03-03 11:13:04,997 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:13:05,030 - Siamese network - INFO - test | batch idx 0 loss 0.02148839458823204
+2022-03-03 11:13:06,568 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:13:06,648 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 3.743156776181422e-05, lr 0.00027419182585616055 
+2022-03-03 11:13:08,316 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 5.938999311183579e-05, lr 0.0002631592046130896 
+2022-03-03 11:13:09,955 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 1.0759400538518094e-05, lr 0.00025240966060435674 
+2022-03-03 11:13:11,581 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 5.3822317568119615e-05, lr 0.00024195380233209008 
+2022-03-03 11:13:13,271 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 3.506865323288366e-05, lr 0.00023180194846605365 
+2022-03-03 11:13:14,864 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:13:14,902 - Siamese network - INFO - test | batch idx 0 loss 0.007767672184854746
+2022-03-03 11:13:16,541 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:13:16,621 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 2.1886469767196104e-05, lr 0.0002219641176603649 
+2022-03-03 11:13:18,250 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 5.086309465696104e-05, lr 0.00021245001866629322 
+2022-03-03 11:13:19,938 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 1.605134821147658e-05, lr 0.00020326904075089488 
+2022-03-03 11:13:21,558 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 4.09576459787786e-05, lr 0.00019443024443093932 
+2022-03-03 11:13:23,192 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 3.47556451743003e-05, lr 0.00018594235253127368 
+2022-03-03 11:13:24,723 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:13:24,756 - Siamese network - INFO - test | batch idx 0 loss 0.003558020107448101
+2022-03-03 11:13:26,308 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:13:26,387 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 2.8355178073979914e-05, lr 0.00017781374157644728 
+2022-03-03 11:13:28,116 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 7.175482460297644e-05, lr 0.00017005243352409332 
+2022-03-03 11:13:29,864 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 2.7280320864520036e-05, lr 0.0001626660878482253 
+2022-03-03 11:13:31,584 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 5.1589009672170505e-05, lr 0.0001556619939802614 
+2022-03-03 11:13:33,248 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 2.773084088403266e-05, lr 0.0001490470641152345 
+2022-03-03 11:13:34,775 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:13:34,809 - Siamese network - INFO - test | batch idx 0 loss 0.021920379251241684
+2022-03-03 11:13:36,368 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:13:36,449 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 3.7335670640459284e-05, lr 0.0001428278263902913 
+2022-03-03 11:13:38,201 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 2.112909896823112e-05, lr 0.00013701041844220858 
+2022-03-03 11:13:39,922 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 2.0593601220753044e-05, lr 0.0001316005813502869 
+2022-03-03 11:13:41,628 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 2.141774348274339e-05, lr 0.00012660365397059855 
+2022-03-03 11:13:43,328 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 2.932202369265724e-05, lr 0.00012202456766718092 
+2022-03-03 11:13:44,945 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:13:44,981 - Siamese network - INFO - test | batch idx 0 loss 0.0009308012668043375
+2022-03-03 11:13:46,604 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:13:46,688 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 1.8919041394838132e-05, lr 0.00011786784144537567 
+2022-03-03 11:13:48,400 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 6.437838601414114e-05, lr 0.00011413757749211607 
+2022-03-03 11:13:50,035 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 3.8698075513821095e-05, lr 0.0001108374571275637 
+2022-03-03 11:13:51,686 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 6.798467802582309e-05, lr 0.00010797073717209008 
+2022-03-03 11:13:53,324 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 2.308872171852272e-05, lr 0.00010554024673218806 
+2022-03-03 11:13:54,855 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:13:54,889 - Siamese network - INFO - test | batch idx 0 loss 0.0006710756570100784
+2022-03-03 11:13:56,404 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:13:56,487 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 2.0387373297126032e-05, lr 0.00010354838440848502 
+2022-03-03 11:13:58,103 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 7.172565528890118e-05, lr 0.000101997115928614 
+2022-03-03 11:13:59,714 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 1.2973750926903449e-05, lr 0.0001008879722072778 
+2022-03-03 11:14:01,371 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 2.385920197411906e-05, lr 0.00010022204783542078 
+2022-03-03 11:14:02,949 - Siamese network - INFO - test | batch idx 0 loss 0.0002566655748523772
+2022-03-03 11:14:04,487 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:14:05,613 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.2475401908159256, lr 0.001 
+2022-03-03 11:14:07,217 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:14:07,249 - Siamese network - INFO - test | batch idx 0 loss 0.061769675463438034
+2022-03-03 11:14:08,831 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:14:08,912 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.03648124262690544, lr 0.0009997779521645793 
+2022-03-03 11:14:10,584 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.004787512589246035, lr 0.0009991120277927223 
+2022-03-03 11:14:12,344 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0014481256948783994, lr 0.000998002884071386 
+2022-03-03 11:14:14,113 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.0008497815579175949, lr 0.000996451615591515 
+2022-03-03 11:14:15,820 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0011774006998166442, lr 0.000994459753267812 
+2022-03-03 11:14:17,504 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:14:17,542 - Siamese network - INFO - test | batch idx 0 loss 0.006295432336628437
+2022-03-03 11:14:19,143 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:14:19,229 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.0008602447924204171, lr 0.00099202926282791 
+2022-03-03 11:14:21,001 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0015737110516056418, lr 0.0009891625428724363 
+2022-03-03 11:14:22,713 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.0009057156275957823, lr 0.000985862422507884 
+2022-03-03 11:14:24,356 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.0003295500064268708, lr 0.0009821321585546244 
+2022-03-03 11:14:26,015 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0008012856123968959, lr 0.0009779754323328191 
+2022-03-03 11:14:27,561 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:14:27,595 - Siamese network - INFO - test | batch idx 0 loss 0.056283190846443176
+2022-03-03 11:14:29,123 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:14:29,206 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.0006462786695919931, lr 0.0009733963460294015 
+2022-03-03 11:14:30,863 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0006473697139881551, lr 0.0009683994186497131 
+2022-03-03 11:14:32,524 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.00041267636697739363, lr 0.0009629895815577914 
+2022-03-03 11:14:34,170 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.0005642425385303795, lr 0.0009571721736097088 
+2022-03-03 11:14:35,867 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.0005792605807073414, lr 0.0009509529358847655 
+2022-03-03 11:14:37,452 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:14:37,485 - Siamese network - INFO - test | batch idx 0 loss 0.0018450947245582938
+2022-03-03 11:14:39,017 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:14:39,095 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.0001445128582417965, lr 0.0009443380060197386 
+2022-03-03 11:14:40,752 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.0005065540317445993, lr 0.0009373339121517746 
+2022-03-03 11:14:42,523 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.0003927492070943117, lr 0.0009299475664759069 
+2022-03-03 11:14:44,176 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.00041412896825931966, lr 0.0009221862584235528 
+2022-03-03 11:14:45,919 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.0003361539856996387, lr 0.0009140576474687263 
+2022-03-03 11:14:47,482 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:14:47,515 - Siamese network - INFO - test | batch idx 0 loss 0.004470523446798325
+2022-03-03 11:14:49,030 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:14:49,109 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.00012666071415878832, lr 0.0009055697555690607 
+2022-03-03 11:14:50,765 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.00032855270546860993, lr 0.0008967309592491052 
+2022-03-03 11:14:52,403 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.0002508128236513585, lr 0.0008875499813337069 
+2022-03-03 11:14:54,075 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.0003894340479746461, lr 0.0008780358823396353 
+2022-03-03 11:14:55,729 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.00016368803335353732, lr 0.0008681980515339464 
+2022-03-03 11:14:57,265 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:14:57,298 - Siamese network - INFO - test | batch idx 0 loss 0.0024649999104440212
+2022-03-03 11:14:58,892 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:14:58,980 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.00047035241732373834, lr 0.0008580461976679099 
+2022-03-03 11:15:00,633 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 0.00044567682198248804, lr 0.0008475903393956434 
+2022-03-03 11:15:02,275 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 0.0004711222427431494, lr 0.0008368407953869105 
+2022-03-03 11:15:03,909 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 0.0005698606837540865, lr 0.0008258081741438395 
+2022-03-03 11:15:05,575 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 0.00021317748178262264, lr 0.0008145033635316131 
+2022-03-03 11:15:07,113 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:15:07,147 - Siamese network - INFO - test | batch idx 0 loss 0.0017632711678743362
+2022-03-03 11:15:08,682 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:15:08,771 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.0004523087409324944, lr 0.0008029375200334589 
+2022-03-03 11:15:10,388 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 0.0003398794506210834, lr 0.0007911220577405485 
+2022-03-03 11:15:12,058 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 0.00023724581114947796, lr 0.0007790686370876671 
+2022-03-03 11:15:13,673 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 0.00028933517751283944, lr 0.0007667891533457719 
+2022-03-03 11:15:15,325 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 0.00015128984523471445, lr 0.000754295724882796 
+2022-03-03 11:15:16,871 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:15:16,906 - Siamese network - INFO - test | batch idx 0 loss 0.003252272726967931
+2022-03-03 11:15:18,437 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:15:18,516 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 0.00024325503909494728, lr 0.0007416006812042827 
+2022-03-03 11:15:20,159 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 0.00017774623120203614, lr 0.0007287165507856513 
+2022-03-03 11:15:21,853 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 0.00023359099577646703, lr 0.0007156560487081052 
+2022-03-03 11:15:23,592 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 0.00015864268061704934, lr 0.0007024320641103813 
+2022-03-03 11:15:25,349 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 0.0002483964490238577, lr 0.0006890576474687264 
+2022-03-03 11:15:27,006 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:15:27,042 - Siamese network - INFO - test | batch idx 0 loss 0.006232679821550846
+2022-03-03 11:15:28,677 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:15:28,765 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.00027522837626747787, lr 0.0006755459977176532 
+2022-03-03 11:15:30,498 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 0.0002444740675855428, lr 0.0006619104492241846 
+2022-03-03 11:15:32,252 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 0.00022032637207303196, lr 0.0006481644586284443 
+2022-03-03 11:15:33,925 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 0.00021321774693205953, lr 0.0006343215915635762 
+2022-03-03 11:15:35,604 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 6.525601202156395e-05, lr 0.000620395509268104 
+2022-03-03 11:15:37,220 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:15:37,254 - Siamese network - INFO - test | batch idx 0 loss 0.005044183228164911
+2022-03-03 11:15:38,775 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:15:38,852 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 0.00012661013170145452, lr 0.000606399955103937 
+2022-03-03 11:15:40,488 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 0.00018612763960845768, lr 0.0005923487409933315 
+2022-03-03 11:15:42,112 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 0.00011880247620865703, lr 0.0005782557337881911 
+2022-03-03 11:15:43,737 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 0.00017426125123165548, lr 0.0005641348415851578 
+2022-03-03 11:15:45,417 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 0.00019728961342480034, lr 0.00055 
+2022-03-03 11:15:47,000 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:15:47,037 - Siamese network - INFO - test | batch idx 0 loss 0.005093422252684832
+2022-03-03 11:15:48,636 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:15:48,720 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 0.00023651460651308298, lr 0.0005358651584148423 
+2022-03-03 11:15:50,428 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 4.403843922773376e-05, lr 0.000521744266211809 
+2022-03-03 11:15:52,048 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 0.00010709559137467295, lr 0.0005076512590066686 
+2022-03-03 11:15:53,798 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 0.0001934947504196316, lr 0.0004936000448960632 
+2022-03-03 11:15:55,542 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 0.00013995285553392023, lr 0.0004796044907318961 
+2022-03-03 11:15:57,181 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:15:57,217 - Siamese network - INFO - test | batch idx 0 loss 0.030136268585920334
+2022-03-03 11:15:58,860 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:15:58,948 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 2.7256821340415627e-05, lr 0.0004656784084364239 
+2022-03-03 11:16:00,733 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 4.4883705413667485e-05, lr 0.00045183554137155597 
+2022-03-03 11:16:02,457 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 0.00015748548321425915, lr 0.0004380895507758153 
+2022-03-03 11:16:04,204 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 0.0003012898378074169, lr 0.00042445400228234684 
+2022-03-03 11:16:05,894 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 9.080974996322766e-05, lr 0.0004109423525312738 
+2022-03-03 11:16:07,491 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:16:07,527 - Siamese network - INFO - test | batch idx 0 loss 0.005846624728292227
+2022-03-03 11:16:09,101 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:16:09,188 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 0.00017141846183221787, lr 0.0003975679358896189 
+2022-03-03 11:16:10,924 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 3.543949787854217e-05, lr 0.000384343951291895 
+2022-03-03 11:16:12,655 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 0.0001237974502146244, lr 0.00037128344921434864 
+2022-03-03 11:16:14,401 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 0.00015013683878351003, lr 0.0003583993187957173 
+2022-03-03 11:16:16,133 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 0.0001957167696673423, lr 0.00034570427511720393 
+2022-03-03 11:16:17,793 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:16:17,830 - Siamese network - INFO - test | batch idx 0 loss 0.005421249195933342
+2022-03-03 11:16:19,386 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:16:19,469 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 0.00013926012616138905, lr 0.0003332108466542281 
+2022-03-03 11:16:21,195 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 0.00012123742635594681, lr 0.0003209313629123329 
+2022-03-03 11:16:22,830 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 8.658301521791145e-05, lr 0.0003088779422594514 
+2022-03-03 11:16:24,648 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 0.00012012516526738182, lr 0.0002970624799665412 
+2022-03-03 11:16:26,440 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 5.4261621698969975e-05, lr 0.00028549663646838715 
+2022-03-03 11:16:28,148 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:16:28,185 - Siamese network - INFO - test | batch idx 0 loss 0.002168110338971019
+2022-03-03 11:16:29,789 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:16:29,874 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 7.50967301428318e-05, lr 0.00027419182585616055 
+2022-03-03 11:16:31,607 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 8.45943795866333e-05, lr 0.0002631592046130896 
+2022-03-03 11:16:33,298 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 7.161601388361305e-05, lr 0.00025240966060435674 
+2022-03-03 11:16:35,028 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 5.671025428455323e-05, lr 0.00024195380233209008 
+2022-03-03 11:16:36,744 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 0.00016734439122956246, lr 0.00023180194846605365 
+2022-03-03 11:16:38,429 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:16:38,466 - Siamese network - INFO - test | batch idx 0 loss 0.005194094497710466
+2022-03-03 11:16:40,043 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:16:40,122 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 9.714166662888601e-05, lr 0.0002219641176603649 
+2022-03-03 11:16:41,747 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 0.00010802908218465745, lr 0.00021245001866629322 
+2022-03-03 11:16:43,459 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 5.123526352690533e-05, lr 0.00020326904075089488 
+2022-03-03 11:16:45,089 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 8.770625572651625e-05, lr 0.00019443024443093932 
+2022-03-03 11:16:46,704 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 4.9646972911432385e-05, lr 0.00018594235253127368 
+2022-03-03 11:16:48,272 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:16:48,307 - Siamese network - INFO - test | batch idx 0 loss 0.019636031240224838
+2022-03-03 11:16:49,846 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:16:49,932 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 0.0001097036074497737, lr 0.00017781374157644728 
+2022-03-03 11:16:51,580 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 9.088126535061747e-05, lr 0.00017005243352409332 
+2022-03-03 11:16:53,203 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 5.725162918679416e-05, lr 0.0001626660878482253 
+2022-03-03 11:16:54,837 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 7.891692803241313e-05, lr 0.0001556619939802614 
+2022-03-03 11:16:56,479 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 5.843037797603756e-05, lr 0.0001490470641152345 
+2022-03-03 11:16:57,998 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:16:58,031 - Siamese network - INFO - test | batch idx 0 loss 0.0020276056602597237
+2022-03-03 11:16:59,537 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:16:59,617 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 0.0001009148545563221, lr 0.0001428278263902913 
+2022-03-03 11:17:01,239 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 2.6404595701023936e-05, lr 0.00013701041844220858 
+2022-03-03 11:17:02,853 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 4.307714698370546e-05, lr 0.0001316005813502869 
+2022-03-03 11:17:04,495 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 0.00010191695764660835, lr 0.00012660365397059855 
+2022-03-03 11:17:06,116 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 0.00011049672320950776, lr 0.00012202456766718092 
+2022-03-03 11:17:07,704 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:17:07,741 - Siamese network - INFO - test | batch idx 0 loss 0.0035865092650055885
+2022-03-03 11:17:09,356 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:17:09,440 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 7.796395948389545e-05, lr 0.00011786784144537567 
+2022-03-03 11:17:11,161 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 2.238111301267054e-05, lr 0.00011413757749211607 
+2022-03-03 11:17:12,931 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 6.586416566278785e-05, lr 0.0001108374571275637 
+2022-03-03 11:17:14,606 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 5.6049386330414563e-05, lr 0.00010797073717209008 
+2022-03-03 11:17:16,385 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 5.871614484931342e-05, lr 0.00010554024673218806 
+2022-03-03 11:17:18,058 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:17:18,098 - Siamese network - INFO - test | batch idx 0 loss 0.0015105500351637602
+2022-03-03 11:17:19,697 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:17:19,783 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 7.641496631549671e-05, lr 0.00010354838440848502 
+2022-03-03 11:17:21,556 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 6.681710510747507e-05, lr 0.000101997115928614 
+2022-03-03 11:17:23,242 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 4.155341594014317e-05, lr 0.0001008879722072778 
+2022-03-03 11:17:24,892 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 5.7804048992693424e-05, lr 0.00010022204783542078 
+2022-03-03 11:17:26,455 - Siamese network - INFO - test | batch idx 0 loss 0.00455902237445116
+2022-03-03 11:17:27,965 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:17:29,085 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.3150196373462677, lr 0.001 
+2022-03-03 11:17:30,645 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:17:30,678 - Siamese network - INFO - test | batch idx 0 loss 0.028654443100094795
+2022-03-03 11:17:32,227 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:17:32,306 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.006408907938748598, lr 0.0009997779521645793 
+2022-03-03 11:17:33,921 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.006222099997103214, lr 0.0009991120277927223 
+2022-03-03 11:17:35,551 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0022977888584136963, lr 0.000998002884071386 
+2022-03-03 11:17:37,209 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.002222838345915079, lr 0.000996451615591515 
+2022-03-03 11:17:38,835 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0020330531988292933, lr 0.000994459753267812 
+2022-03-03 11:17:40,366 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:17:40,401 - Siamese network - INFO - test | batch idx 0 loss 0.006364456843584776
+2022-03-03 11:17:41,950 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:17:42,035 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.0008589309873059392, lr 0.00099202926282791 
+2022-03-03 11:17:43,676 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0013923469232395291, lr 0.0009891625428724363 
+2022-03-03 11:17:45,295 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.00040308054303750396, lr 0.000985862422507884 
+2022-03-03 11:17:46,942 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.0005221237661316991, lr 0.0009821321585546244 
+2022-03-03 11:17:48,584 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0005258339224383235, lr 0.0009779754323328191 
+2022-03-03 11:17:50,135 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:17:50,168 - Siamese network - INFO - test | batch idx 0 loss 0.026464583352208138
+2022-03-03 11:17:51,767 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:17:51,846 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.0004297533305361867, lr 0.0009733963460294015 
+2022-03-03 11:17:53,517 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0009660256328061223, lr 0.0009683994186497131 
+2022-03-03 11:17:55,162 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.0005928186001256108, lr 0.0009629895815577914 
+2022-03-03 11:17:56,782 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.0004127876309212297, lr 0.0009571721736097088 
+2022-03-03 11:17:58,558 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.0004976735217496753, lr 0.0009509529358847655 
+2022-03-03 11:18:00,231 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:18:00,269 - Siamese network - INFO - test | batch idx 0 loss 0.0028373380191624165
+2022-03-03 11:18:01,819 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:18:01,901 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.00032175451633520424, lr 0.0009443380060197386 
+2022-03-03 11:18:03,504 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.00016237120144069195, lr 0.0009373339121517746 
+2022-03-03 11:18:05,165 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.0008201897726394236, lr 0.0009299475664759069 
+2022-03-03 11:18:06,785 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.001660683425143361, lr 0.0009221862584235528 
+2022-03-03 11:18:08,427 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.00036291813012212515, lr 0.0009140576474687263 
+2022-03-03 11:18:09,962 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:18:09,998 - Siamese network - INFO - test | batch idx 0 loss 0.0026243741158396006
+2022-03-03 11:18:11,535 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:18:11,616 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.0002821805246639997, lr 0.0009055697555690607 
+2022-03-03 11:18:13,268 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.00012011721264570951, lr 0.0008967309592491052 
+2022-03-03 11:18:14,908 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.00011303923383820802, lr 0.0008875499813337069 
+2022-03-03 11:18:16,608 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.00022348391939885914, lr 0.0008780358823396353 
+2022-03-03 11:18:18,259 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.00013175616913940758, lr 0.0008681980515339464 
+2022-03-03 11:18:19,866 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:18:19,903 - Siamese network - INFO - test | batch idx 0 loss 0.004331925883889198
+2022-03-03 11:18:21,546 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:18:21,632 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.00017100466357078403, lr 0.0008580461976679099 
+2022-03-03 11:18:23,392 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 0.00012066562339896336, lr 0.0008475903393956434 
+2022-03-03 11:18:25,016 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 0.00011010973685188219, lr 0.0008368407953869105 
+2022-03-03 11:18:26,694 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 7.356497371802106e-05, lr 0.0008258081741438395 
+2022-03-03 11:18:28,368 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 8.93657052074559e-05, lr 0.0008145033635316131 
+2022-03-03 11:18:29,900 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:18:29,933 - Siamese network - INFO - test | batch idx 0 loss 0.008408968336880207
+2022-03-03 11:18:31,482 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:18:31,567 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.00025115147582255304, lr 0.0008029375200334589 
+2022-03-03 11:18:33,189 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 0.00014733659918420017, lr 0.0007911220577405485 
+2022-03-03 11:18:34,830 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 0.0002850382006727159, lr 0.0007790686370876671 
+2022-03-03 11:18:36,505 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 0.00017677570576779544, lr 0.0007667891533457719 
+2022-03-03 11:18:38,116 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 0.00022474753495771438, lr 0.000754295724882796 
+2022-03-03 11:18:39,642 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:18:39,676 - Siamese network - INFO - test | batch idx 0 loss 0.004569683223962784
+2022-03-03 11:18:41,242 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:18:41,320 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 6.218437192728743e-05, lr 0.0007416006812042827 
+2022-03-03 11:18:42,981 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 5.181660162634216e-05, lr 0.0007287165507856513 
+2022-03-03 11:18:44,633 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 9.525132190901786e-05, lr 0.0007156560487081052 
+2022-03-03 11:18:46,345 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 5.558206612477079e-05, lr 0.0007024320641103813 
+2022-03-03 11:18:47,983 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 9.268569556297734e-05, lr 0.0006890576474687264 
+2022-03-03 11:18:49,539 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:18:49,576 - Siamese network - INFO - test | batch idx 0 loss 0.004272123333066702
+2022-03-03 11:18:51,165 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:18:51,249 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.00010568066500127316, lr 0.0006755459977176532 
+2022-03-03 11:18:52,890 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 0.00010128691792488098, lr 0.0006619104492241846 
+2022-03-03 11:18:54,564 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 5.0683818699326366e-05, lr 0.0006481644586284443 
+2022-03-03 11:18:56,287 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 0.00012978182348888367, lr 0.0006343215915635762 
+2022-03-03 11:18:58,009 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 6.747254519723356e-05, lr 0.000620395509268104 
+2022-03-03 11:18:59,591 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:18:59,625 - Siamese network - INFO - test | batch idx 0 loss 0.003509470261633396
+2022-03-03 11:19:01,140 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:19:01,219 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 0.00010469643893884495, lr 0.000606399955103937 
+2022-03-03 11:19:02,826 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 0.00012153088027844205, lr 0.0005923487409933315 
+2022-03-03 11:19:04,425 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 5.72500066482462e-05, lr 0.0005782557337881911 
+2022-03-03 11:19:06,028 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 6.902937457198277e-05, lr 0.0005641348415851578 
+2022-03-03 11:19:07,631 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 0.0001902991789393127, lr 0.00055 
+2022-03-03 11:19:09,143 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:19:09,178 - Siamese network - INFO - test | batch idx 0 loss 0.021691007539629936
+2022-03-03 11:19:10,708 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:19:10,789 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 0.00019501574570313096, lr 0.0005358651584148423 
+2022-03-03 11:19:12,408 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 0.00010362201282987371, lr 0.000521744266211809 
+2022-03-03 11:19:14,011 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 0.00013367024075705558, lr 0.0005076512590066686 
+2022-03-03 11:19:15,617 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 0.00011562985309865326, lr 0.0004936000448960632 
+2022-03-03 11:19:17,236 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 4.8985923058353364e-05, lr 0.0004796044907318961 
+2022-03-03 11:19:18,759 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:19:18,793 - Siamese network - INFO - test | batch idx 0 loss 0.016166890040040016
+2022-03-03 11:19:20,315 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:19:20,393 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 0.00010577693319646642, lr 0.0004656784084364239 
+2022-03-03 11:19:22,001 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 6.415433745132759e-05, lr 0.00045183554137155597 
+2022-03-03 11:19:23,609 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 2.064697582682129e-05, lr 0.0004380895507758153 
+2022-03-03 11:19:25,211 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 5.385463373386301e-05, lr 0.00042445400228234684 
+2022-03-03 11:19:26,809 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 4.058313788846135e-05, lr 0.0004109423525312738 
+2022-03-03 11:19:28,318 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:19:28,352 - Siamese network - INFO - test | batch idx 0 loss 0.017450600862503052
+2022-03-03 11:19:29,857 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:19:29,936 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 2.6358558898209594e-05, lr 0.0003975679358896189 
+2022-03-03 11:19:31,536 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 3.2081748940981925e-05, lr 0.000384343951291895 
+2022-03-03 11:19:33,142 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 6.287108408287168e-05, lr 0.00037128344921434864 
+2022-03-03 11:19:34,747 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 5.4091135098133236e-05, lr 0.0003583993187957173 
+2022-03-03 11:19:36,348 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 3.5788139939541e-05, lr 0.00034570427511720393 
+2022-03-03 11:19:37,865 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:19:37,898 - Siamese network - INFO - test | batch idx 0 loss 0.004404572769999504
+2022-03-03 11:19:39,415 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:19:39,497 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 4.915771569358185e-05, lr 0.0003332108466542281 
+2022-03-03 11:19:41,183 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 3.8036065234337e-05, lr 0.0003209313629123329 
+2022-03-03 11:19:42,861 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 4.647694368031807e-05, lr 0.0003088779422594514 
+2022-03-03 11:19:44,504 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 3.0097959097474813e-05, lr 0.0002970624799665412 
+2022-03-03 11:19:46,206 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 2.69841530098347e-05, lr 0.00028549663646838715 
+2022-03-03 11:19:47,837 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:19:47,873 - Siamese network - INFO - test | batch idx 0 loss 0.006140596698969603
+2022-03-03 11:19:49,519 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:19:49,614 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 4.331218224251643e-05, lr 0.00027419182585616055 
+2022-03-03 11:19:51,339 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 3.200570063199848e-05, lr 0.0002631592046130896 
+2022-03-03 11:19:52,961 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 2.680146280908957e-05, lr 0.00025240966060435674 
+2022-03-03 11:19:54,590 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 7.398442539852113e-05, lr 0.00024195380233209008 
+2022-03-03 11:19:56,225 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 5.56582999706734e-05, lr 0.00023180194846605365 
+2022-03-03 11:19:57,911 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:19:57,951 - Siamese network - INFO - test | batch idx 0 loss 0.019827285781502724
+2022-03-03 11:19:59,544 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:19:59,624 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 3.701639798237011e-05, lr 0.0002219641176603649 
+2022-03-03 11:20:01,272 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 4.646821616915986e-05, lr 0.00021245001866629322 
+2022-03-03 11:20:02,948 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 3.774286597035825e-05, lr 0.00020326904075089488 
+2022-03-03 11:20:04,582 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 3.436013503232971e-05, lr 0.00019443024443093932 
+2022-03-03 11:20:06,238 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 2.0105708244955167e-05, lr 0.00018594235253127368 
+2022-03-03 11:20:07,845 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:20:07,887 - Siamese network - INFO - test | batch idx 0 loss 0.003498996840789914
+2022-03-03 11:20:09,641 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:20:09,722 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 2.821330417646095e-05, lr 0.00017781374157644728 
+2022-03-03 11:20:11,356 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 2.91405594907701e-05, lr 0.00017005243352409332 
+2022-03-03 11:20:12,985 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 5.552164657274261e-05, lr 0.0001626660878482253 
+2022-03-03 11:20:14,612 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 2.7139010853716172e-05, lr 0.0001556619939802614 
+2022-03-03 11:20:16,233 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 2.6486197384656407e-05, lr 0.0001490470641152345 
+2022-03-03 11:20:17,756 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:20:17,789 - Siamese network - INFO - test | batch idx 0 loss 0.006630495190620422
+2022-03-03 11:20:19,309 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:20:19,388 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 2.6683697797125205e-05, lr 0.0001428278263902913 
+2022-03-03 11:20:21,007 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 2.4743467292864807e-05, lr 0.00013701041844220858 
+2022-03-03 11:20:22,619 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 1.7262147594010457e-05, lr 0.0001316005813502869 
+2022-03-03 11:20:24,227 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 1.5649520719307475e-05, lr 0.00012660365397059855 
+2022-03-03 11:20:25,842 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 2.200407107011415e-05, lr 0.00012202456766718092 
+2022-03-03 11:20:27,374 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:20:27,407 - Siamese network - INFO - test | batch idx 0 loss 0.00572387408465147
+2022-03-03 11:20:28,949 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:20:29,027 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 3.1993746233638376e-05, lr 0.00011786784144537567 
+2022-03-03 11:20:30,676 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 7.996157364686951e-05, lr 0.00011413757749211607 
+2022-03-03 11:20:32,487 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 4.0119699406204745e-05, lr 0.0001108374571275637 
+2022-03-03 11:20:34,177 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 2.8037884476361796e-05, lr 0.00010797073717209008 
+2022-03-03 11:20:35,808 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 1.4046398973732721e-05, lr 0.00010554024673218806 
+2022-03-03 11:20:37,358 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:20:37,392 - Siamese network - INFO - test | batch idx 0 loss 0.0028884250205010176
+2022-03-03 11:20:38,944 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:20:39,026 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 4.175088906777091e-05, lr 0.00010354838440848502 
+2022-03-03 11:20:40,756 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 3.5501510865287855e-05, lr 0.000101997115928614 
+2022-03-03 11:20:42,568 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 5.181211236049421e-05, lr 0.0001008879722072778 
+2022-03-03 11:20:44,256 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 2.2609776351600885e-05, lr 0.00010022204783542078 
+2022-03-03 11:20:45,871 - Siamese network - INFO - test | batch idx 0 loss 0.002093498595058918
+2022-03-03 11:20:47,389 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:20:48,579 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.2970248758792877, lr 0.001 
+2022-03-03 11:20:50,133 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:20:50,168 - Siamese network - INFO - test | batch idx 0 loss 0.025980355218052864
+2022-03-03 11:20:51,674 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:20:51,755 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.0055420477874577045, lr 0.0009997779521645793 
+2022-03-03 11:20:53,387 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.005206125322729349, lr 0.0009991120277927223 
+2022-03-03 11:20:55,008 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0032524100970476866, lr 0.000998002884071386 
+2022-03-03 11:20:56,761 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.001279749907553196, lr 0.000996451615591515 
+2022-03-03 11:20:58,519 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0009993241401389241, lr 0.000994459753267812 
+2022-03-03 11:21:00,133 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:21:00,171 - Siamese network - INFO - test | batch idx 0 loss 0.025156887248158455
+2022-03-03 11:21:01,749 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:21:01,834 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.0014062323607504368, lr 0.00099202926282791 
+2022-03-03 11:21:03,479 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0010451844427734613, lr 0.0009891625428724363 
+2022-03-03 11:21:05,076 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.0006444171303883195, lr 0.000985862422507884 
+2022-03-03 11:21:06,664 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.0004087279085069895, lr 0.0009821321585546244 
+2022-03-03 11:21:08,263 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0005268739769235253, lr 0.0009779754323328191 
+2022-03-03 11:21:09,778 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:21:09,812 - Siamese network - INFO - test | batch idx 0 loss 0.024174898862838745
+2022-03-03 11:21:11,309 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:21:11,387 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.000276796956313774, lr 0.0009733963460294015 
+2022-03-03 11:21:12,984 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0009281777893193066, lr 0.0009683994186497131 
+2022-03-03 11:21:14,581 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.0008694680291227996, lr 0.0009629895815577914 
+2022-03-03 11:21:16,182 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.00023143029829952866, lr 0.0009571721736097088 
+2022-03-03 11:21:17,776 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.00015418166003655642, lr 0.0009509529358847655 
+2022-03-03 11:21:19,282 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:21:19,314 - Siamese network - INFO - test | batch idx 0 loss 0.0024918299168348312
+2022-03-03 11:21:20,813 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:21:20,893 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.00027811084873974323, lr 0.0009443380060197386 
+2022-03-03 11:21:22,491 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.0003103045164607465, lr 0.0009373339121517746 
+2022-03-03 11:21:24,090 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.0002971425710711628, lr 0.0009299475664759069 
+2022-03-03 11:21:25,698 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.00017245038179680705, lr 0.0009221862584235528 
+2022-03-03 11:21:27,298 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.00022531331342179328, lr 0.0009140576474687263 
+2022-03-03 11:21:28,810 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:21:28,844 - Siamese network - INFO - test | batch idx 0 loss 0.003126611700281501
+2022-03-03 11:21:30,341 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:21:30,420 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.0006621340871788561, lr 0.0009055697555690607 
+2022-03-03 11:21:32,023 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.0004871313867624849, lr 0.0008967309592491052 
+2022-03-03 11:21:33,622 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.00018554543203208596, lr 0.0008875499813337069 
+2022-03-03 11:21:35,213 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.0003019245050381869, lr 0.0008780358823396353 
+2022-03-03 11:21:36,810 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.00014404012472368777, lr 0.0008681980515339464 
+2022-03-03 11:21:38,318 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:21:38,352 - Siamese network - INFO - test | batch idx 0 loss 0.00017351283167954534
+2022-03-03 11:21:39,843 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:21:39,920 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.0001100359731935896, lr 0.0008580461976679099 
+2022-03-03 11:21:41,521 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 0.00020164517627563328, lr 0.0008475903393956434 
+2022-03-03 11:21:43,120 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 9.592415153747424e-05, lr 0.0008368407953869105 
+2022-03-03 11:21:44,719 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 0.00014059922250453383, lr 0.0008258081741438395 
+2022-03-03 11:21:46,318 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 0.00020646107441280037, lr 0.0008145033635316131 
+2022-03-03 11:21:47,831 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:21:47,864 - Siamese network - INFO - test | batch idx 0 loss 0.002283064415678382
+2022-03-03 11:21:49,357 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:21:49,435 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.00033409055322408676, lr 0.0008029375200334589 
+2022-03-03 11:21:51,020 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 0.00023268803488463163, lr 0.0007911220577405485 
+2022-03-03 11:21:52,604 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 9.167849930236116e-05, lr 0.0007790686370876671 
+2022-03-03 11:21:54,195 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 8.819950744509697e-05, lr 0.0007667891533457719 
+2022-03-03 11:21:55,798 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 0.0004069533897563815, lr 0.000754295724882796 
+2022-03-03 11:21:57,312 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:21:57,346 - Siamese network - INFO - test | batch idx 0 loss 0.004789664410054684
+2022-03-03 11:21:58,848 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:21:58,926 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 0.000370631372788921, lr 0.0007416006812042827 
+2022-03-03 11:22:00,530 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 0.00012453697854653, lr 0.0007287165507856513 
+2022-03-03 11:22:02,130 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 0.00011899232777068391, lr 0.0007156560487081052 
+2022-03-03 11:22:03,729 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 6.626511458307505e-05, lr 0.0007024320641103813 
+2022-03-03 11:22:05,326 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 4.779956361744553e-05, lr 0.0006890576474687264 
+2022-03-03 11:22:06,838 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:22:06,871 - Siamese network - INFO - test | batch idx 0 loss 0.00128303247038275
+2022-03-03 11:22:08,366 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:22:08,444 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.00012404877634253353, lr 0.0006755459977176532 
+2022-03-03 11:22:10,044 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 5.276645242702216e-05, lr 0.0006619104492241846 
+2022-03-03 11:22:11,643 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 4.580174572765827e-05, lr 0.0006481644586284443 
+2022-03-03 11:22:13,239 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 4.6403089072555304e-05, lr 0.0006343215915635762 
+2022-03-03 11:22:14,826 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 7.955647743074223e-05, lr 0.000620395509268104 
+2022-03-03 11:22:16,329 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:22:16,363 - Siamese network - INFO - test | batch idx 0 loss 0.0010181772522628307
+2022-03-03 11:22:17,859 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:22:17,938 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 0.00011336919124005362, lr 0.000606399955103937 
+2022-03-03 11:22:19,530 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 0.000234536622883752, lr 0.0005923487409933315 
+2022-03-03 11:22:21,120 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 5.3277275583241135e-05, lr 0.0005782557337881911 
+2022-03-03 11:22:22,712 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 0.00012887436605524272, lr 0.0005641348415851578 
+2022-03-03 11:22:24,312 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 3.106343137915246e-05, lr 0.00055 
+2022-03-03 11:22:25,825 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:22:25,858 - Siamese network - INFO - test | batch idx 0 loss 0.01592983491718769
+2022-03-03 11:22:27,354 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:22:27,436 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 7.006305531831458e-05, lr 0.0005358651584148423 
+2022-03-03 11:22:29,040 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 0.00011029985034838319, lr 0.000521744266211809 
+2022-03-03 11:22:30,640 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 7.180111424531788e-05, lr 0.0005076512590066686 
+2022-03-03 11:22:32,230 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 4.520476795732975e-05, lr 0.0004936000448960632 
+2022-03-03 11:22:33,822 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 6.970332469791174e-05, lr 0.0004796044907318961 
+2022-03-03 11:22:35,332 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:22:35,365 - Siamese network - INFO - test | batch idx 0 loss 0.032899003475904465
+2022-03-03 11:22:36,865 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:22:36,945 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 0.00011220967280678451, lr 0.0004656784084364239 
+2022-03-03 11:22:38,552 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 5.0113390898332e-05, lr 0.00045183554137155597 
+2022-03-03 11:22:40,150 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 6.53825409244746e-05, lr 0.0004380895507758153 
+2022-03-03 11:22:41,754 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 6.008139098412357e-05, lr 0.00042445400228234684 
+2022-03-03 11:22:43,343 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 2.7756303097703494e-05, lr 0.0004109423525312738 
+2022-03-03 11:22:44,853 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:22:44,887 - Siamese network - INFO - test | batch idx 0 loss 0.0003494922711979598
+2022-03-03 11:22:46,377 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:22:46,456 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 3.065602868446149e-05, lr 0.0003975679358896189 
+2022-03-03 11:22:48,053 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 2.446908547426574e-05, lr 0.000384343951291895 
+2022-03-03 11:22:49,650 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 3.803035360760987e-05, lr 0.00037128344921434864 
+2022-03-03 11:22:51,245 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 7.043766527203843e-05, lr 0.0003583993187957173 
+2022-03-03 11:22:52,842 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 2.56149833148811e-05, lr 0.00034570427511720393 
+2022-03-03 11:22:54,355 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:22:54,388 - Siamese network - INFO - test | batch idx 0 loss 0.002776900539174676
+2022-03-03 11:22:55,882 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:22:55,960 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 3.63885446859058e-05, lr 0.0003332108466542281 
+2022-03-03 11:22:57,561 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 2.396834133833181e-05, lr 0.0003209313629123329 
+2022-03-03 11:22:59,164 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 3.4041360777337104e-05, lr 0.0003088779422594514 
+2022-03-03 11:23:00,762 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 4.168683517491445e-05, lr 0.0002970624799665412 
+2022-03-03 11:23:02,365 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 2.9872004233766347e-05, lr 0.00028549663646838715 
+2022-03-03 11:23:03,882 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:23:03,915 - Siamese network - INFO - test | batch idx 0 loss 0.001620394759811461
+2022-03-03 11:23:05,412 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:23:05,491 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 8.707560482434928e-05, lr 0.00027419182585616055 
+2022-03-03 11:23:07,092 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 3.061738607357256e-05, lr 0.0002631592046130896 
+2022-03-03 11:23:08,692 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 2.440625394228846e-05, lr 0.00025240966060435674 
+2022-03-03 11:23:10,282 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 5.696501466445625e-05, lr 0.00024195380233209008 
+2022-03-03 11:23:11,873 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 2.6949277526000515e-05, lr 0.00023180194846605365 
+2022-03-03 11:23:13,388 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:23:13,422 - Siamese network - INFO - test | batch idx 0 loss 0.0025376328267157078
+2022-03-03 11:23:14,915 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:23:14,993 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 2.586682057881262e-05, lr 0.0002219641176603649 
+2022-03-03 11:23:16,592 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 2.9712469768128358e-05, lr 0.00021245001866629322 
+2022-03-03 11:23:18,199 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 1.6735129975131713e-05, lr 0.00020326904075089488 
+2022-03-03 11:23:19,802 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 2.3854663595557213e-05, lr 0.00019443024443093932 
+2022-03-03 11:23:21,393 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 3.224110332666896e-05, lr 0.00018594235253127368 
+2022-03-03 11:23:22,897 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:23:22,931 - Siamese network - INFO - test | batch idx 0 loss 0.01399984396994114
+2022-03-03 11:23:24,424 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:23:24,503 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 2.229118581453804e-05, lr 0.00017781374157644728 
+2022-03-03 11:23:26,137 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 2.1102106984471902e-05, lr 0.00017005243352409332 
+2022-03-03 11:23:27,731 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 2.5490391635685228e-05, lr 0.0001626660878482253 
+2022-03-03 11:23:29,324 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 1.6812797184684314e-05, lr 0.0001556619939802614 
+2022-03-03 11:23:30,922 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 2.9977998565300368e-05, lr 0.0001490470641152345 
+2022-03-03 11:23:32,435 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:23:32,468 - Siamese network - INFO - test | batch idx 0 loss 0.025014158338308334
+2022-03-03 11:23:33,970 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:23:34,052 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 1.9477596651995555e-05, lr 0.0001428278263902913 
+2022-03-03 11:23:35,642 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 9.172907994070556e-06, lr 0.00013701041844220858 
+2022-03-03 11:23:37,238 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 4.984642509953119e-05, lr 0.0001316005813502869 
+2022-03-03 11:23:38,840 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 3.302439290564507e-05, lr 0.00012660365397059855 
+2022-03-03 11:23:40,437 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 2.25619733100757e-05, lr 0.00012202456766718092 
+2022-03-03 11:23:41,948 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:23:41,982 - Siamese network - INFO - test | batch idx 0 loss 0.004458059556782246
+2022-03-03 11:23:43,479 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:23:43,558 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 8.90865339897573e-06, lr 0.00011786784144537567 
+2022-03-03 11:23:45,150 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 1.651614365982823e-05, lr 0.00011413757749211607 
+2022-03-03 11:23:46,752 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 2.006357863137964e-05, lr 0.0001108374571275637 
+2022-03-03 11:23:48,347 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 2.9457580239977688e-05, lr 0.00010797073717209008 
+2022-03-03 11:23:49,943 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 2.3176531612989493e-05, lr 0.00010554024673218806 
+2022-03-03 11:23:51,454 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:23:51,486 - Siamese network - INFO - test | batch idx 0 loss 0.014428754337131977
+2022-03-03 11:23:52,983 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:23:53,061 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 3.574500442482531e-05, lr 0.00010354838440848502 
+2022-03-03 11:23:54,655 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 2.2256150259636343e-05, lr 0.000101997115928614 
+2022-03-03 11:23:56,253 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 4.0768965845927596e-05, lr 0.0001008879722072778 
+2022-03-03 11:23:57,849 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 2.6770474505610764e-05, lr 0.00010022204783542078 
+2022-03-03 11:23:59,394 - Siamese network - INFO - test | batch idx 0 loss 0.0031926361843943596
+2022-03-03 11:24:00,893 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:24:02,016 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.27309882640838623, lr 0.001 
+2022-03-03 11:24:03,527 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:24:03,561 - Siamese network - INFO - test | batch idx 0 loss 0.02248932048678398
+2022-03-03 11:24:05,050 - Siamese network - INFO - test acc 0.925531914893617 
+2022-03-03 11:24:05,128 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.008199822157621384, lr 0.0009997779521645793 
+2022-03-03 11:24:06,726 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.002162482589483261, lr 0.0009991120277927223 
+2022-03-03 11:24:08,320 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0029812422581017017, lr 0.000998002884071386 
+2022-03-03 11:24:09,923 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.0006847800686955452, lr 0.000996451615591515 
+2022-03-03 11:24:11,518 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.00037024522316642106, lr 0.000994459753267812 
+2022-03-03 11:24:13,023 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:24:13,056 - Siamese network - INFO - test | batch idx 0 loss 0.012699578888714314
+2022-03-03 11:24:14,557 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:24:14,636 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.0005441161338239908, lr 0.00099202926282791 
+2022-03-03 11:24:16,239 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0005986856413073838, lr 0.0009891625428724363 
+2022-03-03 11:24:17,832 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.0004509184218477458, lr 0.000985862422507884 
+2022-03-03 11:24:19,433 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.00019579291983973235, lr 0.0009821321585546244 
+2022-03-03 11:24:21,034 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.00034579160274006426, lr 0.0009779754323328191 
+2022-03-03 11:24:22,541 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:24:22,575 - Siamese network - INFO - test | batch idx 0 loss 0.024061907082796097
+2022-03-03 11:24:24,066 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:24:24,144 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.00023308975505642593, lr 0.0009733963460294015 
+2022-03-03 11:24:25,741 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.00033658856409601867, lr 0.0009683994186497131 
+2022-03-03 11:24:27,335 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.00015401211567223072, lr 0.0009629895815577914 
+2022-03-03 11:24:28,926 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.00027639849577099085, lr 0.0009571721736097088 
+2022-03-03 11:24:30,518 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.00012722759856842458, lr 0.0009509529358847655 
+2022-03-03 11:24:32,033 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:24:32,066 - Siamese network - INFO - test | batch idx 0 loss 0.016803277656435966
+2022-03-03 11:24:33,569 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:24:33,649 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.00011315783922327682, lr 0.0009443380060197386 
+2022-03-03 11:24:35,250 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 5.943152791587636e-05, lr 0.0009373339121517746 
+2022-03-03 11:24:36,845 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 9.908523497870192e-05, lr 0.0009299475664759069 
+2022-03-03 11:24:38,445 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.00018716271733865142, lr 0.0009221862584235528 
+2022-03-03 11:24:40,046 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.00012902931484859437, lr 0.0009140576474687263 
+2022-03-03 11:24:41,553 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:24:41,586 - Siamese network - INFO - test | batch idx 0 loss 0.008253119885921478
+2022-03-03 11:24:43,085 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:24:43,164 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.0001560473465360701, lr 0.0009055697555690607 
+2022-03-03 11:24:44,765 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 7.69664766266942e-05, lr 0.0008967309592491052 
+2022-03-03 11:24:46,405 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.00014900666428729892, lr 0.0008875499813337069 
+2022-03-03 11:24:48,015 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 6.117255543358624e-05, lr 0.0008780358823396353 
+2022-03-03 11:24:49,638 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 5.7401732192374766e-05, lr 0.0008681980515339464 
+2022-03-03 11:24:51,173 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:24:51,205 - Siamese network - INFO - test | batch idx 0 loss 0.014247776009142399
+2022-03-03 11:24:52,714 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:24:52,792 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.0001912730949698016, lr 0.0008580461976679099 
+2022-03-03 11:24:54,413 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 6.323681736830622e-05, lr 0.0008475903393956434 
+2022-03-03 11:24:56,040 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 4.39794130215887e-05, lr 0.0008368407953869105 
+2022-03-03 11:24:57,645 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 7.78903704485856e-05, lr 0.0008258081741438395 
+2022-03-03 11:24:59,265 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 3.340349212521687e-05, lr 0.0008145033635316131 
+2022-03-03 11:25:00,804 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:25:00,838 - Siamese network - INFO - test | batch idx 0 loss 0.005295291543006897
+2022-03-03 11:25:02,364 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:25:02,442 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 2.398307879047934e-05, lr 0.0008029375200334589 
+2022-03-03 11:25:04,061 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 4.02178120566532e-05, lr 0.0007911220577405485 
+2022-03-03 11:25:05,686 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 6.505198689410463e-05, lr 0.0007790686370876671 
+2022-03-03 11:25:07,310 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 9.831397619564086e-05, lr 0.0007667891533457719 
+2022-03-03 11:25:08,913 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 5.172059536562301e-05, lr 0.000754295724882796 
+2022-03-03 11:25:10,432 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:25:10,466 - Siamese network - INFO - test | batch idx 0 loss 0.008698929101228714
+2022-03-03 11:25:11,988 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:25:12,065 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 3.7746263842564076e-05, lr 0.0007416006812042827 
+2022-03-03 11:25:13,737 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 3.396366082597524e-05, lr 0.0007287165507856513 
+2022-03-03 11:25:15,361 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 5.4468797316076234e-05, lr 0.0007156560487081052 
+2022-03-03 11:25:17,034 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 0.00010800546442624182, lr 0.0007024320641103813 
+2022-03-03 11:25:18,644 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 0.0003211959556210786, lr 0.0006890576474687264 
+2022-03-03 11:25:20,162 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:25:20,196 - Siamese network - INFO - test | batch idx 0 loss 0.007115005515515804
+2022-03-03 11:25:21,717 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:25:21,800 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.0005199414445087314, lr 0.0006755459977176532 
+2022-03-03 11:25:23,415 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 8.601949957665056e-05, lr 0.0006619104492241846 
+2022-03-03 11:25:25,036 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 7.406128133879974e-05, lr 0.0006481644586284443 
+2022-03-03 11:25:26,658 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 8.702172635821626e-05, lr 0.0006343215915635762 
+2022-03-03 11:25:28,293 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 4.930621798848733e-05, lr 0.000620395509268104 
+2022-03-03 11:25:29,889 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:25:29,922 - Siamese network - INFO - test | batch idx 0 loss 0.0017488953890278935
+2022-03-03 11:25:31,430 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:25:31,509 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 2.8449763703974895e-05, lr 0.000606399955103937 
+2022-03-03 11:25:33,178 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 4.1268904169555753e-05, lr 0.0005923487409933315 
+2022-03-03 11:25:34,936 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 4.062051812070422e-05, lr 0.0005782557337881911 
+2022-03-03 11:25:36,704 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 2.538076114433352e-05, lr 0.0005641348415851578 
+2022-03-03 11:25:38,486 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 6.037578350515105e-05, lr 0.00055 
+2022-03-03 11:25:40,100 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:25:40,134 - Siamese network - INFO - test | batch idx 0 loss 0.013161159120500088
+2022-03-03 11:25:41,655 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:25:41,732 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 2.789538302749861e-05, lr 0.0005358651584148423 
+2022-03-03 11:25:43,408 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 7.114312029443681e-05, lr 0.000521744266211809 
+2022-03-03 11:25:45,162 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 3.3468946639914066e-05, lr 0.0005076512590066686 
+2022-03-03 11:25:46,926 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 2.4875334929674864e-05, lr 0.0004936000448960632 
+2022-03-03 11:25:48,680 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 4.8695575969759375e-05, lr 0.0004796044907318961 
+2022-03-03 11:25:50,362 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:25:50,399 - Siamese network - INFO - test | batch idx 0 loss 0.006687453482300043
+2022-03-03 11:25:51,939 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:25:52,020 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 1.3556844351114705e-05, lr 0.0004656784084364239 
+2022-03-03 11:25:53,691 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 4.539563451544382e-05, lr 0.00045183554137155597 
+2022-03-03 11:25:55,316 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 3.707701398525387e-05, lr 0.0004380895507758153 
+2022-03-03 11:25:56,969 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 2.455644789733924e-05, lr 0.00042445400228234684 
+2022-03-03 11:25:58,681 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 2.7339348889654502e-05, lr 0.0004109423525312738 
+2022-03-03 11:26:00,308 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:26:00,343 - Siamese network - INFO - test | batch idx 0 loss 0.004044346045702696
+2022-03-03 11:26:01,960 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:26:02,049 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 2.0612778826034628e-05, lr 0.0003975679358896189 
+2022-03-03 11:26:03,874 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 4.743129466078244e-05, lr 0.000384343951291895 
+2022-03-03 11:26:05,650 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 3.06998445012141e-05, lr 0.00037128344921434864 
+2022-03-03 11:26:07,414 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 2.7636870072456077e-05, lr 0.0003583993187957173 
+2022-03-03 11:26:09,176 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 4.046685353387147e-05, lr 0.00034570427511720393 
+2022-03-03 11:26:10,793 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:26:10,826 - Siamese network - INFO - test | batch idx 0 loss 0.003034718334674835
+2022-03-03 11:26:12,367 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:26:12,449 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 3.836618998320773e-05, lr 0.0003332108466542281 
+2022-03-03 11:26:14,090 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 1.2661216715059709e-05, lr 0.0003209313629123329 
+2022-03-03 11:26:15,744 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 1.9010551113751717e-05, lr 0.0003088779422594514 
+2022-03-03 11:26:17,381 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 2.330759343749378e-05, lr 0.0002970624799665412 
+2022-03-03 11:26:19,016 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 2.414392110949848e-05, lr 0.00028549663646838715 
+2022-03-03 11:26:20,616 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:26:20,652 - Siamese network - INFO - test | batch idx 0 loss 0.01826588436961174
+2022-03-03 11:26:22,169 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:26:22,247 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 2.141363438568078e-05, lr 0.00027419182585616055 
+2022-03-03 11:26:23,871 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 1.5937708667479455e-05, lr 0.0002631592046130896 
+2022-03-03 11:26:25,525 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 1.8921617083833553e-05, lr 0.00025240966060435674 
+2022-03-03 11:26:27,188 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 2.2305022866930813e-05, lr 0.00024195380233209008 
+2022-03-03 11:26:28,867 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 7.672355422982946e-05, lr 0.00023180194846605365 
+2022-03-03 11:26:30,439 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:26:30,472 - Siamese network - INFO - test | batch idx 0 loss 0.008686193265020847
+2022-03-03 11:26:32,020 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:26:32,101 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 2.3942560801515356e-05, lr 0.0002219641176603649 
+2022-03-03 11:26:33,787 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 1.9525699826772325e-05, lr 0.00021245001866629322 
+2022-03-03 11:26:35,466 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 2.1574029233306646e-05, lr 0.00020326904075089488 
+2022-03-03 11:26:37,161 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 1.9259232431068085e-05, lr 0.00019443024443093932 
+2022-03-03 11:26:38,832 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 2.8209013180457987e-05, lr 0.00018594235253127368 
+2022-03-03 11:26:40,411 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:26:40,449 - Siamese network - INFO - test | batch idx 0 loss 0.004050911869853735
+2022-03-03 11:26:42,019 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:26:42,102 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 4.442341833055252e-06, lr 0.00017781374157644728 
+2022-03-03 11:26:43,769 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 2.6566747692413628e-05, lr 0.00017005243352409332 
+2022-03-03 11:26:45,443 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 2.4386921722907573e-05, lr 0.0001626660878482253 
+2022-03-03 11:26:47,105 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 1.0426289918541443e-05, lr 0.0001556619939802614 
+2022-03-03 11:26:48,722 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 1.547824103909079e-05, lr 0.0001490470641152345 
+2022-03-03 11:26:50,255 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:26:50,289 - Siamese network - INFO - test | batch idx 0 loss 0.007826162502169609
+2022-03-03 11:26:51,800 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:26:51,879 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 1.6905156371649355e-05, lr 0.0001428278263902913 
+2022-03-03 11:26:53,612 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 2.009624586207792e-05, lr 0.00013701041844220858 
+2022-03-03 11:26:55,266 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 1.63745426107198e-05, lr 0.0001316005813502869 
+2022-03-03 11:26:56,878 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 5.244784551905468e-05, lr 0.00012660365397059855 
+2022-03-03 11:26:58,481 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 1.8415639715385623e-05, lr 0.00012202456766718092 
+2022-03-03 11:27:00,021 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:27:00,055 - Siamese network - INFO - test | batch idx 0 loss 0.0078594870865345
+2022-03-03 11:27:01,618 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:27:01,697 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 1.9394070477574132e-05, lr 0.00011786784144537567 
+2022-03-03 11:27:03,374 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 2.1343219486880116e-05, lr 0.00011413757749211607 
+2022-03-03 11:27:05,029 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 1.7588803530088626e-05, lr 0.0001108374571275637 
+2022-03-03 11:27:06,651 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 2.0480332750594243e-05, lr 0.00010797073717209008 
+2022-03-03 11:27:08,300 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 3.773770367843099e-05, lr 0.00010554024673218806 
+2022-03-03 11:27:09,898 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:27:09,935 - Siamese network - INFO - test | batch idx 0 loss 0.004717187490314245
+2022-03-03 11:27:11,488 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:27:11,570 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 1.1228267794649582e-05, lr 0.00010354838440848502 
+2022-03-03 11:27:13,241 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 1.2866564247815404e-05, lr 0.000101997115928614 
+2022-03-03 11:27:14,866 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 4.9146437959279865e-05, lr 0.0001008879722072778 
+2022-03-03 11:27:16,476 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 1.0663871762517374e-05, lr 0.00010022204783542078 
+2022-03-03 11:27:18,068 - Siamese network - INFO - test | batch idx 0 loss 0.0034587495028972626
+2022-03-03 11:27:19,598 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:27:20,743 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.3272426724433899, lr 0.001 
+2022-03-03 11:27:22,275 - Siamese network - INFO - train acc 0.9210526315789473 
+2022-03-03 11:27:22,309 - Siamese network - INFO - test | batch idx 0 loss 0.029927555471658707
+2022-03-03 11:27:23,842 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:27:23,921 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.011131396517157555, lr 0.0009997779521645793 
+2022-03-03 11:27:25,595 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.007152998819947243, lr 0.0009991120277927223 
+2022-03-03 11:27:27,273 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0029396747704595327, lr 0.000998002884071386 
+2022-03-03 11:27:28,924 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.0017186497570946813, lr 0.000996451615591515 
+2022-03-03 11:27:30,592 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.001838985364884138, lr 0.000994459753267812 
+2022-03-03 11:27:32,170 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:27:32,206 - Siamese network - INFO - test | batch idx 0 loss 0.010057290084660053
+2022-03-03 11:27:33,767 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:27:33,846 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.0011733685387298465, lr 0.00099202926282791 
+2022-03-03 11:27:35,483 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.001704951748251915, lr 0.0009891625428724363 
+2022-03-03 11:27:37,123 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.002589676296338439, lr 0.000985862422507884 
+2022-03-03 11:27:38,809 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.0011225027265027165, lr 0.0009821321585546244 
+2022-03-03 11:27:40,446 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0010985080152750015, lr 0.0009779754323328191 
+2022-03-03 11:27:41,991 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:27:42,026 - Siamese network - INFO - test | batch idx 0 loss 0.00890668947249651
+2022-03-03 11:27:43,540 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:27:43,624 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.0005443469854071736, lr 0.0009733963460294015 
+2022-03-03 11:27:45,263 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0012759931851178408, lr 0.0009683994186497131 
+2022-03-03 11:27:46,975 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.0008812680025584996, lr 0.0009629895815577914 
+2022-03-03 11:27:48,584 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.0010648356983438134, lr 0.0009571721736097088 
+2022-03-03 11:27:50,196 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.00048785487888380885, lr 0.0009509529358847655 
+2022-03-03 11:27:51,720 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:27:51,753 - Siamese network - INFO - test | batch idx 0 loss 0.007097229827195406
+2022-03-03 11:27:53,267 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:27:53,345 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.000587312038987875, lr 0.0009443380060197386 
+2022-03-03 11:27:54,957 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.0006228391430340707, lr 0.0009373339121517746 
+2022-03-03 11:27:56,565 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.0005033706547692418, lr 0.0009299475664759069 
+2022-03-03 11:27:58,168 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.0003901078016497195, lr 0.0009221862584235528 
+2022-03-03 11:27:59,786 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.00047790916869416833, lr 0.0009140576474687263 
+2022-03-03 11:28:01,324 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:28:01,357 - Siamese network - INFO - test | batch idx 0 loss 0.002236781409010291
+2022-03-03 11:28:02,862 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:28:02,941 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.0009370133630000055, lr 0.0009055697555690607 
+2022-03-03 11:28:04,541 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.0006829261546954513, lr 0.0008967309592491052 
+2022-03-03 11:28:06,144 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.0007192319026216865, lr 0.0008875499813337069 
+2022-03-03 11:28:07,748 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.0004145649145357311, lr 0.0008780358823396353 
+2022-03-03 11:28:09,346 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.0003109059762209654, lr 0.0008681980515339464 
+2022-03-03 11:28:10,889 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:28:10,923 - Siamese network - INFO - test | batch idx 0 loss 0.0012890181969851255
+2022-03-03 11:28:12,441 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:28:12,525 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.0003446543705649674, lr 0.0008580461976679099 
+2022-03-03 11:28:14,138 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 0.0002966417232528329, lr 0.0008475903393956434 
+2022-03-03 11:28:15,736 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 0.00047342851758003235, lr 0.0008368407953869105 
+2022-03-03 11:28:17,336 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 0.0001071459919330664, lr 0.0008258081741438395 
+2022-03-03 11:28:18,964 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 0.00022965636162552983, lr 0.0008145033635316131 
+2022-03-03 11:28:20,478 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:28:20,513 - Siamese network - INFO - test | batch idx 0 loss 0.0033783193212002516
+2022-03-03 11:28:22,020 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:28:22,097 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.0002022303524427116, lr 0.0008029375200334589 
+2022-03-03 11:28:23,707 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 0.0001190979965031147, lr 0.0007911220577405485 
+2022-03-03 11:28:25,316 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 0.00017504522111266851, lr 0.0007790686370876671 
+2022-03-03 11:28:26,920 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 0.0002503878204151988, lr 0.0007667891533457719 
+2022-03-03 11:28:28,542 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 0.00010440957703394815, lr 0.000754295724882796 
+2022-03-03 11:28:30,079 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:28:30,114 - Siamese network - INFO - test | batch idx 0 loss 0.003675431478768587
+2022-03-03 11:28:31,658 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:28:31,738 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 0.00028339834534563124, lr 0.0007416006812042827 
+2022-03-03 11:28:33,374 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 0.00011587687185965478, lr 0.0007287165507856513 
+2022-03-03 11:28:34,999 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 0.00011074649228248745, lr 0.0007156560487081052 
+2022-03-03 11:28:36,611 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 0.00013770206714980304, lr 0.0007024320641103813 
+2022-03-03 11:28:38,249 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 3.419557833694853e-05, lr 0.0006890576474687264 
+2022-03-03 11:28:39,835 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:28:39,871 - Siamese network - INFO - test | batch idx 0 loss 0.003340331371873617
+2022-03-03 11:28:41,527 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:28:41,618 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.00031493298592977226, lr 0.0006755459977176532 
+2022-03-03 11:28:43,275 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 0.0002844025439117104, lr 0.0006619104492241846 
+2022-03-03 11:28:44,916 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 0.00012360764958430082, lr 0.0006481644586284443 
+2022-03-03 11:28:46,593 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 7.334708789130673e-05, lr 0.0006343215915635762 
+2022-03-03 11:28:48,200 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 0.00013447675155475736, lr 0.000620395509268104 
+2022-03-03 11:28:49,747 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:28:49,784 - Siamese network - INFO - test | batch idx 0 loss 0.0012212923029437661
+2022-03-03 11:28:51,327 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:28:51,406 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 0.00013938243500888348, lr 0.000606399955103937 
+2022-03-03 11:28:53,038 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 5.0239639676874503e-05, lr 0.0005923487409933315 
+2022-03-03 11:28:54,647 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 0.00012213501031510532, lr 0.0005782557337881911 
+2022-03-03 11:28:56,266 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 8.634576079202816e-05, lr 0.0005641348415851578 
+2022-03-03 11:28:57,882 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 8.20431305328384e-05, lr 0.00055 
+2022-03-03 11:28:59,407 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:28:59,442 - Siamese network - INFO - test | batch idx 0 loss 0.0058897798880934715
+2022-03-03 11:29:00,947 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:29:01,025 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 3.6883757275063545e-05, lr 0.0005358651584148423 
+2022-03-03 11:29:02,638 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 6.679069338133559e-05, lr 0.000521744266211809 
+2022-03-03 11:29:04,271 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 5.7146426115650684e-05, lr 0.0005076512590066686 
+2022-03-03 11:29:05,890 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 7.894961890997365e-05, lr 0.0004936000448960632 
+2022-03-03 11:29:07,585 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 9.443735325476155e-05, lr 0.0004796044907318961 
+2022-03-03 11:29:09,152 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:29:09,185 - Siamese network - INFO - test | batch idx 0 loss 0.0011098847026005387
+2022-03-03 11:29:10,739 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:29:10,818 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 3.826805914286524e-05, lr 0.0004656784084364239 
+2022-03-03 11:29:12,510 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 0.00016112788580358028, lr 0.00045183554137155597 
+2022-03-03 11:29:14,131 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 4.454117879504338e-05, lr 0.0004380895507758153 
+2022-03-03 11:29:15,765 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 4.2480900447117165e-05, lr 0.00042445400228234684 
+2022-03-03 11:29:17,391 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 0.00010497007315279916, lr 0.0004109423525312738 
+2022-03-03 11:29:18,922 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:29:18,956 - Siamese network - INFO - test | batch idx 0 loss 0.0018021785654127598
+2022-03-03 11:29:20,509 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:29:20,587 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 2.7908334232051857e-05, lr 0.0003975679358896189 
+2022-03-03 11:29:22,252 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 4.966750566381961e-05, lr 0.000384343951291895 
+2022-03-03 11:29:23,926 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 7.593814370920882e-05, lr 0.00037128344921434864 
+2022-03-03 11:29:25,604 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 5.448197043733671e-05, lr 0.0003583993187957173 
+2022-03-03 11:29:27,223 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 6.487593054771423e-05, lr 0.00034570427511720393 
+2022-03-03 11:29:28,857 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:29:28,893 - Siamese network - INFO - test | batch idx 0 loss 0.006992477923631668
+2022-03-03 11:29:30,434 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:29:30,513 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 3.647838093456812e-05, lr 0.0003332108466542281 
+2022-03-03 11:29:32,162 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 7.952484884299338e-05, lr 0.0003209313629123329 
+2022-03-03 11:29:33,781 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 5.439488813863136e-05, lr 0.0003088779422594514 
+2022-03-03 11:29:35,422 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 2.9508108127629384e-05, lr 0.0002970624799665412 
+2022-03-03 11:29:37,096 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 2.8567761546582915e-05, lr 0.00028549663646838715 
+2022-03-03 11:29:38,693 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:29:38,732 - Siamese network - INFO - test | batch idx 0 loss 0.0011559998383745551
+2022-03-03 11:29:40,326 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:29:40,410 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 4.146271385252476e-05, lr 0.00027419182585616055 
+2022-03-03 11:29:42,027 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 2.4958126232377253e-05, lr 0.0002631592046130896 
+2022-03-03 11:29:43,661 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 5.46851588296704e-05, lr 0.00025240966060435674 
+2022-03-03 11:29:45,300 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 1.5029751011752523e-05, lr 0.00024195380233209008 
+2022-03-03 11:29:46,931 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 3.95910901715979e-05, lr 0.00023180194846605365 
+2022-03-03 11:29:48,488 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:29:48,526 - Siamese network - INFO - test | batch idx 0 loss 0.0014699725434184074
+2022-03-03 11:29:50,115 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:29:50,196 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 4.540791633189656e-05, lr 0.0002219641176603649 
+2022-03-03 11:29:51,838 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 5.13565209985245e-05, lr 0.00021245001866629322 
+2022-03-03 11:29:53,468 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 4.326663110987283e-05, lr 0.00020326904075089488 
+2022-03-03 11:29:55,094 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 3.9492322684964165e-05, lr 0.00019443024443093932 
+2022-03-03 11:29:56,732 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 2.0791760107385926e-05, lr 0.00018594235253127368 
+2022-03-03 11:29:58,360 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:29:58,395 - Siamese network - INFO - test | batch idx 0 loss 0.001419410458765924
+2022-03-03 11:30:00,002 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:30:00,086 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 5.769368362962268e-05, lr 0.00017781374157644728 
+2022-03-03 11:30:01,831 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 3.379548797965981e-05, lr 0.00017005243352409332 
+2022-03-03 11:30:03,533 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 4.1752777178771794e-05, lr 0.0001626660878482253 
+2022-03-03 11:30:05,174 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 3.139036925858818e-05, lr 0.0001556619939802614 
+2022-03-03 11:30:06,808 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 4.0029473893810064e-05, lr 0.0001490470641152345 
+2022-03-03 11:30:08,390 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:30:08,427 - Siamese network - INFO - test | batch idx 0 loss 0.002731074346229434
+2022-03-03 11:30:10,001 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:30:10,087 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 5.08523517055437e-05, lr 0.0001428278263902913 
+2022-03-03 11:30:11,743 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 3.201110666850582e-05, lr 0.00013701041844220858 
+2022-03-03 11:30:13,427 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 2.7835303626488894e-05, lr 0.0001316005813502869 
+2022-03-03 11:30:15,084 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 4.7229194024112076e-05, lr 0.00012660365397059855 
+2022-03-03 11:30:16,741 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 7.170549906732049e-06, lr 0.00012202456766718092 
+2022-03-03 11:30:18,297 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:30:18,331 - Siamese network - INFO - test | batch idx 0 loss 0.00382061954587698
+2022-03-03 11:30:19,880 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:30:19,959 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 2.324313754797913e-05, lr 0.00011786784144537567 
+2022-03-03 11:30:21,568 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 6.75668052281253e-05, lr 0.00011413757749211607 
+2022-03-03 11:30:23,182 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 3.939875750802457e-05, lr 0.0001108374571275637 
+2022-03-03 11:30:24,805 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 2.431659959256649e-05, lr 0.00010797073717209008 
+2022-03-03 11:30:26,413 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 3.373001891304739e-05, lr 0.00010554024673218806 
+2022-03-03 11:30:27,933 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:30:27,966 - Siamese network - INFO - test | batch idx 0 loss 0.0023062906693667173
+2022-03-03 11:30:29,471 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:30:29,552 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 3.9645772631047294e-05, lr 0.00010354838440848502 
+2022-03-03 11:30:31,152 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 3.450502845225856e-05, lr 0.000101997115928614 
+2022-03-03 11:30:32,760 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 3.7173464079387486e-05, lr 0.0001008879722072778 
+2022-03-03 11:30:34,350 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 2.9747901862720028e-05, lr 0.00010022204783542078 
+2022-03-03 11:30:35,901 - Siamese network - INFO - test | batch idx 0 loss 0.005550652742385864
+2022-03-03 11:30:37,410 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:30:38,595 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.27120012044906616, lr 0.001 
+2022-03-03 11:30:40,325 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:30:40,361 - Siamese network - INFO - test | batch idx 0 loss 0.018720174208283424
+2022-03-03 11:30:41,968 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:30:42,051 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.0044293454848229885, lr 0.0009997779521645793 
+2022-03-03 11:30:43,723 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.003381893737241626, lr 0.0009991120277927223 
+2022-03-03 11:30:45,395 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0028071061242371798, lr 0.000998002884071386 
+2022-03-03 11:30:47,074 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.0012528662336990237, lr 0.000996451615591515 
+2022-03-03 11:30:48,746 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0028061449993401766, lr 0.000994459753267812 
+2022-03-03 11:30:50,330 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:30:50,365 - Siamese network - INFO - test | batch idx 0 loss 0.0017934736097231507
+2022-03-03 11:30:51,933 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:30:52,014 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.0012304089032113552, lr 0.00099202926282791 
+2022-03-03 11:30:53,694 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0007731811492703855, lr 0.0009891625428724363 
+2022-03-03 11:30:55,362 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.0007086479454301298, lr 0.000985862422507884 
+2022-03-03 11:30:57,036 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.0007552719907835126, lr 0.0009821321585546244 
+2022-03-03 11:30:58,712 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0005629914812743664, lr 0.0009779754323328191 
+2022-03-03 11:31:00,301 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:31:00,337 - Siamese network - INFO - test | batch idx 0 loss 0.04799181595444679
+2022-03-03 11:31:01,929 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:31:02,010 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.0005029364838264883, lr 0.0009733963460294015 
+2022-03-03 11:31:03,691 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0007911744178272784, lr 0.0009683994186497131 
+2022-03-03 11:31:05,372 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.0007087617996148765, lr 0.0009629895815577914 
+2022-03-03 11:31:07,089 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.0002931157359853387, lr 0.0009571721736097088 
+2022-03-03 11:31:08,732 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.00045689858961850405, lr 0.0009509529358847655 
+2022-03-03 11:31:10,382 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:31:10,418 - Siamese network - INFO - test | batch idx 0 loss 0.013587560504674911
+2022-03-03 11:31:11,958 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:31:12,038 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.00031742436112836003, lr 0.0009443380060197386 
+2022-03-03 11:31:13,647 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.00047369045205414295, lr 0.0009373339121517746 
+2022-03-03 11:31:15,297 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.0005913903005421162, lr 0.0009299475664759069 
+2022-03-03 11:31:16,942 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.001145256101153791, lr 0.0009221862584235528 
+2022-03-03 11:31:18,593 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.00022533987066708505, lr 0.0009140576474687263 
+2022-03-03 11:31:20,152 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:31:20,185 - Siamese network - INFO - test | batch idx 0 loss 0.0007864286308176816
+2022-03-03 11:31:21,749 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:31:21,828 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 8.188765059458092e-05, lr 0.0009055697555690607 
+2022-03-03 11:31:23,444 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.0001173205891973339, lr 0.0008967309592491052 
+2022-03-03 11:31:25,067 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 7.902217475930229e-05, lr 0.0008875499813337069 
+2022-03-03 11:31:26,666 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.00030636880546808243, lr 0.0008780358823396353 
+2022-03-03 11:31:28,310 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.00013380493328440934, lr 0.0008681980515339464 
+2022-03-03 11:31:29,848 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:31:29,882 - Siamese network - INFO - test | batch idx 0 loss 0.00024464644957333803
+2022-03-03 11:31:31,405 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:31:31,485 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 7.079673378029838e-05, lr 0.0008580461976679099 
+2022-03-03 11:31:33,090 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 8.331279241247103e-05, lr 0.0008475903393956434 
+2022-03-03 11:31:34,693 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 6.535858119605109e-05, lr 0.0008368407953869105 
+2022-03-03 11:31:36,291 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 9.019899880513549e-05, lr 0.0008258081741438395 
+2022-03-03 11:31:37,903 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 6.990381370997056e-05, lr 0.0008145033635316131 
+2022-03-03 11:31:39,467 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:31:39,501 - Siamese network - INFO - test | batch idx 0 loss 0.0024234869051724672
+2022-03-03 11:31:41,078 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:31:41,174 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 6.753634079359472e-05, lr 0.0008029375200334589 
+2022-03-03 11:31:42,906 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 0.00013054760347586125, lr 0.0007911220577405485 
+2022-03-03 11:31:44,538 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 6.885022594360635e-05, lr 0.0007790686370876671 
+2022-03-03 11:31:46,139 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 4.5736545871477574e-05, lr 0.0007667891533457719 
+2022-03-03 11:31:47,755 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 5.103570219944231e-05, lr 0.000754295724882796 
+2022-03-03 11:31:49,313 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:31:49,349 - Siamese network - INFO - test | batch idx 0 loss 0.008864033035933971
+2022-03-03 11:31:50,883 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:31:50,965 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 8.123902807710692e-05, lr 0.0007416006812042827 
+2022-03-03 11:31:52,572 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 4.2716907046269625e-05, lr 0.0007287165507856513 
+2022-03-03 11:31:54,214 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 7.26456128177233e-05, lr 0.0007156560487081052 
+2022-03-03 11:31:55,975 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 5.5878237617434934e-05, lr 0.0007024320641103813 
+2022-03-03 11:31:57,731 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 0.002032706281170249, lr 0.0006890576474687264 
+2022-03-03 11:31:59,266 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:31:59,306 - Siamese network - INFO - test | batch idx 0 loss 0.001553593436256051
+2022-03-03 11:32:00,961 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:32:01,046 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.0004587458970490843, lr 0.0006755459977176532 
+2022-03-03 11:32:02,756 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 0.00019372730457689613, lr 0.0006619104492241846 
+2022-03-03 11:32:04,614 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 0.00011939463729504496, lr 0.0006481644586284443 
+2022-03-03 11:32:06,471 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 9.62572667049244e-05, lr 0.0006343215915635762 
+2022-03-03 11:32:08,318 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 9.276416676584631e-05, lr 0.000620395509268104 
+2022-03-03 11:32:09,934 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:32:09,968 - Siamese network - INFO - test | batch idx 0 loss 0.00046022183960303664
+2022-03-03 11:32:11,552 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:32:11,643 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 8.301901834784076e-05, lr 0.000606399955103937 
+2022-03-03 11:32:13,358 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 5.2612933359341696e-05, lr 0.0005923487409933315 
+2022-03-03 11:32:14,957 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 9.157850581686944e-05, lr 0.0005782557337881911 
+2022-03-03 11:32:16,632 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 8.479487587464973e-05, lr 0.0005641348415851578 
+2022-03-03 11:32:18,322 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 5.6474753364454955e-05, lr 0.00055 
+2022-03-03 11:32:20,002 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:32:20,038 - Siamese network - INFO - test | batch idx 0 loss 5.7961635320680216e-05
+2022-03-03 11:32:21,645 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:32:21,726 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 5.159623469808139e-05, lr 0.0005358651584148423 
+2022-03-03 11:32:23,357 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 5.1853399781975895e-05, lr 0.000521744266211809 
+2022-03-03 11:32:24,975 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 9.175194281851873e-05, lr 0.0005076512590066686 
+2022-03-03 11:32:26,760 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 2.6023448299383745e-05, lr 0.0004936000448960632 
+2022-03-03 11:32:28,439 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 3.878205825458281e-05, lr 0.0004796044907318961 
+2022-03-03 11:32:29,955 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:32:29,988 - Siamese network - INFO - test | batch idx 0 loss 0.0016227264422923326
+2022-03-03 11:32:31,526 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:32:31,605 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 4.073940363014117e-05, lr 0.0004656784084364239 
+2022-03-03 11:32:33,362 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 3.055034903809428e-05, lr 0.00045183554137155597 
+2022-03-03 11:32:35,133 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 3.137514795525931e-05, lr 0.0004380895507758153 
+2022-03-03 11:32:36,861 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 3.81540521630086e-05, lr 0.00042445400228234684 
+2022-03-03 11:32:38,502 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 2.1300180378602818e-05, lr 0.0004109423525312738 
+2022-03-03 11:32:40,148 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:32:40,183 - Siamese network - INFO - test | batch idx 0 loss 0.004534445703029633
+2022-03-03 11:32:41,812 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:32:41,896 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 3.476964047877118e-05, lr 0.0003975679358896189 
+2022-03-03 11:32:43,558 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 9.362109267385677e-05, lr 0.000384343951291895 
+2022-03-03 11:32:45,322 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 1.8863598597818054e-05, lr 0.00037128344921434864 
+2022-03-03 11:32:47,101 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 2.7086116460850462e-05, lr 0.0003583993187957173 
+2022-03-03 11:32:48,868 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 3.275821291026659e-05, lr 0.00034570427511720393 
+2022-03-03 11:32:50,507 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:32:50,546 - Siamese network - INFO - test | batch idx 0 loss 0.0009473379468545318
+2022-03-03 11:32:52,195 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:32:52,278 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 3.351960549480282e-05, lr 0.0003332108466542281 
+2022-03-03 11:32:54,027 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 1.3495522580342367e-05, lr 0.0003209313629123329 
+2022-03-03 11:32:55,790 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 2.4413664505118504e-05, lr 0.0003088779422594514 
+2022-03-03 11:32:57,436 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 8.307328971568495e-05, lr 0.0002970624799665412 
+2022-03-03 11:32:59,223 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 3.310447937110439e-05, lr 0.00028549663646838715 
+2022-03-03 11:33:00,870 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:33:00,909 - Siamese network - INFO - test | batch idx 0 loss 0.0016542929224669933
+2022-03-03 11:33:02,521 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:33:02,605 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 3.705720882862806e-05, lr 0.00027419182585616055 
+2022-03-03 11:33:04,327 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 5.2428775234147906e-05, lr 0.0002631592046130896 
+2022-03-03 11:33:06,040 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 4.821543916477822e-05, lr 0.00025240966060435674 
+2022-03-03 11:33:07,779 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 2.005189708143007e-05, lr 0.00024195380233209008 
+2022-03-03 11:33:09,543 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 1.3145272532710806e-05, lr 0.00023180194846605365 
+2022-03-03 11:33:11,179 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:33:11,218 - Siamese network - INFO - test | batch idx 0 loss 0.006048222072422504
+2022-03-03 11:33:12,773 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:33:12,857 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 4.311390875955112e-05, lr 0.0002219641176603649 
+2022-03-03 11:33:14,495 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 1.7117499737651087e-05, lr 0.00021245001866629322 
+2022-03-03 11:33:16,152 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 3.108055898337625e-05, lr 0.00020326904075089488 
+2022-03-03 11:33:17,788 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 2.1910323994234204e-05, lr 0.00019443024443093932 
+2022-03-03 11:33:19,431 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 2.05021642614156e-05, lr 0.00018594235253127368 
+2022-03-03 11:33:20,972 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:33:21,006 - Siamese network - INFO - test | batch idx 0 loss 0.00031760893762111664
+2022-03-03 11:33:22,545 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:33:22,626 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 1.7000947991618887e-05, lr 0.00017781374157644728 
+2022-03-03 11:33:24,285 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 3.001213372044731e-05, lr 0.00017005243352409332 
+2022-03-03 11:33:26,039 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 1.1080118383688387e-05, lr 0.0001626660878482253 
+2022-03-03 11:33:27,663 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 1.9240529582020827e-05, lr 0.0001556619939802614 
+2022-03-03 11:33:29,322 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 0.00010728323832154274, lr 0.0001490470641152345 
+2022-03-03 11:33:30,992 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:33:31,029 - Siamese network - INFO - test | batch idx 0 loss 0.0007959789945743978
+2022-03-03 11:33:32,658 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:33:32,744 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 2.0864707039436325e-05, lr 0.0001428278263902913 
+2022-03-03 11:33:34,429 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 2.5765548343770206e-05, lr 0.00013701041844220858 
+2022-03-03 11:33:36,064 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 9.593334652890917e-06, lr 0.0001316005813502869 
+2022-03-03 11:33:37,740 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 3.928284422727302e-05, lr 0.00012660365397059855 
+2022-03-03 11:33:39,496 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 2.076494274660945e-05, lr 0.00012202456766718092 
+2022-03-03 11:33:41,049 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:33:41,083 - Siamese network - INFO - test | batch idx 0 loss 0.0001626768644200638
+2022-03-03 11:33:42,671 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:33:42,756 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 2.009826130233705e-05, lr 0.00011786784144537567 
+2022-03-03 11:33:44,481 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 4.299735155655071e-05, lr 0.00011413757749211607 
+2022-03-03 11:33:46,142 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 2.995573049702216e-05, lr 0.0001108374571275637 
+2022-03-03 11:33:47,911 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 1.6655016224831343e-05, lr 0.00010797073717209008 
+2022-03-03 11:33:49,678 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 4.0976803575176746e-05, lr 0.00010554024673218806 
+2022-03-03 11:33:51,245 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:33:51,278 - Siamese network - INFO - test | batch idx 0 loss 0.002714051166549325
+2022-03-03 11:33:52,882 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:33:52,969 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 2.0484631022554822e-05, lr 0.00010354838440848502 
+2022-03-03 11:33:54,750 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 2.7832555133500136e-05, lr 0.000101997115928614 
+2022-03-03 11:33:56,437 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 4.6779234253335744e-05, lr 0.0001008879722072778 
+2022-03-03 11:33:58,059 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 1.6185822460101917e-05, lr 0.00010022204783542078 
+2022-03-03 11:33:59,671 - Siamese network - INFO - test | batch idx 0 loss 0.01327412761747837
+2022-03-03 11:34:01,226 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:34:02,376 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.31196683645248413, lr 0.001 
+2022-03-03 11:34:03,913 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:34:03,947 - Siamese network - INFO - test | batch idx 0 loss 0.013002544641494751
+2022-03-03 11:34:05,488 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:34:05,569 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.006504416931420565, lr 0.0009997779521645793 
+2022-03-03 11:34:07,250 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.006198504939675331, lr 0.0009991120277927223 
+2022-03-03 11:34:08,921 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0026815456803888083, lr 0.000998002884071386 
+2022-03-03 11:34:10,614 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.0014845698606222868, lr 0.000996451615591515 
+2022-03-03 11:34:12,296 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0009452021913602948, lr 0.000994459753267812 
+2022-03-03 11:34:13,886 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:34:13,921 - Siamese network - INFO - test | batch idx 0 loss 0.0025379585567861795
+2022-03-03 11:34:15,483 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:34:15,569 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.001064520445652306, lr 0.00099202926282791 
+2022-03-03 11:34:17,252 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.001314635737799108, lr 0.0009891625428724363 
+2022-03-03 11:34:18,931 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.0004077256890013814, lr 0.000985862422507884 
+2022-03-03 11:34:20,580 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.001182947657071054, lr 0.0009821321585546244 
+2022-03-03 11:34:22,217 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.00043105645454488695, lr 0.0009779754323328191 
+2022-03-03 11:34:23,770 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:34:23,805 - Siamese network - INFO - test | batch idx 0 loss 0.0048172688111662865
+2022-03-03 11:34:25,336 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:34:25,418 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.0006831437349319458, lr 0.0009733963460294015 
+2022-03-03 11:34:27,087 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0007627318263985217, lr 0.0009683994186497131 
+2022-03-03 11:34:28,722 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.0003480637969914824, lr 0.0009629895815577914 
+2022-03-03 11:34:30,473 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.00040872913086786866, lr 0.0009571721736097088 
+2022-03-03 11:34:32,216 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.00023915802012197673, lr 0.0009509529358847655 
+2022-03-03 11:34:33,878 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:34:33,915 - Siamese network - INFO - test | batch idx 0 loss 0.0016206147847697139
+2022-03-03 11:34:35,469 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:34:35,552 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.00019561864610295743, lr 0.0009443380060197386 
+2022-03-03 11:34:37,247 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.0001734605903038755, lr 0.0009373339121517746 
+2022-03-03 11:34:38,970 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.00032804207876324654, lr 0.0009299475664759069 
+2022-03-03 11:34:40,599 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.0003237762430217117, lr 0.0009221862584235528 
+2022-03-03 11:34:42,300 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.00029891403391957283, lr 0.0009140576474687263 
+2022-03-03 11:34:43,825 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:34:43,858 - Siamese network - INFO - test | batch idx 0 loss 0.0007594862836413085
+2022-03-03 11:34:45,422 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:34:45,512 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.0004189977189525962, lr 0.0009055697555690607 
+2022-03-03 11:34:47,250 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.00011942782293772325, lr 0.0008967309592491052 
+2022-03-03 11:34:48,902 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.00017526716692373157, lr 0.0008875499813337069 
+2022-03-03 11:34:50,536 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.00010340320295654237, lr 0.0008780358823396353 
+2022-03-03 11:34:52,164 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.00012607166718225926, lr 0.0008681980515339464 
+2022-03-03 11:34:53,740 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:34:53,779 - Siamese network - INFO - test | batch idx 0 loss 0.0026863927487283945
+2022-03-03 11:34:55,500 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:34:55,584 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 7.467519753845409e-05, lr 0.0008580461976679099 
+2022-03-03 11:34:57,250 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 6.115580617915839e-05, lr 0.0008475903393956434 
+2022-03-03 11:34:59,175 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 9.110226528719068e-05, lr 0.0008368407953869105 
+2022-03-03 11:35:01,052 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 0.00014878071669954807, lr 0.0008258081741438395 
+2022-03-03 11:35:02,698 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 0.00010365156776970252, lr 0.0008145033635316131 
+2022-03-03 11:35:04,259 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:35:04,294 - Siamese network - INFO - test | batch idx 0 loss 0.0008965980960056186
+2022-03-03 11:35:05,830 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:35:05,910 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.00011044134589610621, lr 0.0008029375200334589 
+2022-03-03 11:35:07,566 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 0.0001046803590725176, lr 0.0007911220577405485 
+2022-03-03 11:35:09,213 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 0.00010076240869238973, lr 0.0007790686370876671 
+2022-03-03 11:35:10,866 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 6.244451651582494e-05, lr 0.0007667891533457719 
+2022-03-03 11:35:12,519 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 5.871264875167981e-05, lr 0.000754295724882796 
+2022-03-03 11:35:14,077 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:35:14,112 - Siamese network - INFO - test | batch idx 0 loss 0.0010109000140801072
+2022-03-03 11:35:15,650 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:35:15,731 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 8.522911957697943e-05, lr 0.0007416006812042827 
+2022-03-03 11:35:17,379 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 0.00010978764476021752, lr 0.0007287165507856513 
+2022-03-03 11:35:19,033 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 7.400556933134794e-05, lr 0.0007156560487081052 
+2022-03-03 11:35:20,678 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 4.478565097087994e-05, lr 0.0007024320641103813 
+2022-03-03 11:35:22,319 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 8.822639938443899e-05, lr 0.0006890576474687264 
+2022-03-03 11:35:23,874 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:35:23,909 - Siamese network - INFO - test | batch idx 0 loss 0.0010400841711089015
+2022-03-03 11:35:25,452 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:35:25,532 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 9.306781430495903e-05, lr 0.0006755459977176532 
+2022-03-03 11:35:27,185 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 7.061559881549329e-05, lr 0.0006619104492241846 
+2022-03-03 11:35:28,835 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 0.00011396429181331769, lr 0.0006481644586284443 
+2022-03-03 11:35:30,486 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 9.439170389669016e-05, lr 0.0006343215915635762 
+2022-03-03 11:35:32,133 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 0.00012622628128156066, lr 0.000620395509268104 
+2022-03-03 11:35:33,688 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:35:33,724 - Siamese network - INFO - test | batch idx 0 loss 0.00047180347610265017
+2022-03-03 11:35:35,267 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:35:35,347 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 3.622949225245975e-05, lr 0.000606399955103937 
+2022-03-03 11:35:36,989 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 6.329122697934508e-05, lr 0.0005923487409933315 
+2022-03-03 11:35:38,637 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 4.9911424866877496e-05, lr 0.0005782557337881911 
+2022-03-03 11:35:40,290 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 9.707800199976191e-05, lr 0.0005641348415851578 
+2022-03-03 11:35:41,931 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 5.431629324448295e-05, lr 0.00055 
+2022-03-03 11:35:43,494 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:35:43,528 - Siamese network - INFO - test | batch idx 0 loss 0.001905575511045754
+2022-03-03 11:35:45,074 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:35:45,155 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 0.00010059661872219294, lr 0.0005358651584148423 
+2022-03-03 11:35:46,807 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 6.976936856517568e-05, lr 0.000521744266211809 
+2022-03-03 11:35:48,459 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 7.885992818046361e-05, lr 0.0005076512590066686 
+2022-03-03 11:35:50,418 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 2.551137913542334e-05, lr 0.0004936000448960632 
+2022-03-03 11:35:52,034 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 3.619736889959313e-05, lr 0.0004796044907318961 
+2022-03-03 11:35:53,556 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:35:53,589 - Siamese network - INFO - test | batch idx 0 loss 0.00048371791490353644
+2022-03-03 11:35:55,094 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:35:55,174 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 2.517647408240009e-05, lr 0.0004656784084364239 
+2022-03-03 11:35:56,787 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 5.812042218167335e-05, lr 0.00045183554137155597 
+2022-03-03 11:35:58,390 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 4.464686207938939e-05, lr 0.0004380895507758153 
+2022-03-03 11:35:59,988 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 3.5842142096953467e-05, lr 0.00042445400228234684 
+2022-03-03 11:36:01,598 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 3.477204154478386e-05, lr 0.0004109423525312738 
+2022-03-03 11:36:03,139 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:36:03,172 - Siamese network - INFO - test | batch idx 0 loss 0.0019138528732582927
+2022-03-03 11:36:04,685 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:36:04,763 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 1.2668987437791657e-05, lr 0.0003975679358896189 
+2022-03-03 11:36:06,367 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 4.2053528886754066e-05, lr 0.000384343951291895 
+2022-03-03 11:36:07,975 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 9.382936696056277e-05, lr 0.00037128344921434864 
+2022-03-03 11:36:09,585 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 2.456896436342504e-05, lr 0.0003583993187957173 
+2022-03-03 11:36:11,194 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 4.257143518771045e-05, lr 0.00034570427511720393 
+2022-03-03 11:36:12,716 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:36:12,751 - Siamese network - INFO - test | batch idx 0 loss 0.0015247665578499436
+2022-03-03 11:36:14,250 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:36:14,329 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 1.8866829122998752e-05, lr 0.0003332108466542281 
+2022-03-03 11:36:15,935 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 2.4605535145383328e-05, lr 0.0003209313629123329 
+2022-03-03 11:36:17,538 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 3.764329449040815e-05, lr 0.0003088779422594514 
+2022-03-03 11:36:19,150 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 3.25275759678334e-05, lr 0.0002970624799665412 
+2022-03-03 11:36:20,751 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 3.2572101190453395e-05, lr 0.00028549663646838715 
+2022-03-03 11:36:22,267 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:36:22,302 - Siamese network - INFO - test | batch idx 0 loss 0.002551038982346654
+2022-03-03 11:36:23,799 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:36:23,878 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 4.098987847100943e-05, lr 0.00027419182585616055 
+2022-03-03 11:36:25,493 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 4.1869549022521824e-05, lr 0.0002631592046130896 
+2022-03-03 11:36:27,095 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 3.625055978773162e-05, lr 0.00025240966060435674 
+2022-03-03 11:36:28,697 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 2.4861876227078028e-05, lr 0.00024195380233209008 
+2022-03-03 11:36:30,305 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 5.5236825573956594e-05, lr 0.00023180194846605365 
+2022-03-03 11:36:31,824 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:36:31,858 - Siamese network - INFO - test | batch idx 0 loss 0.0018799861427396536
+2022-03-03 11:36:33,362 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:36:33,441 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 3.1043451599543914e-05, lr 0.0002219641176603649 
+2022-03-03 11:36:35,046 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 3.1093535653781146e-05, lr 0.00021245001866629322 
+2022-03-03 11:36:36,656 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 5.0405884394422174e-05, lr 0.00020326904075089488 
+2022-03-03 11:36:38,259 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 2.0845993276452646e-05, lr 0.00019443024443093932 
+2022-03-03 11:36:39,870 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 2.1963183826301247e-05, lr 0.00018594235253127368 
+2022-03-03 11:36:41,390 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:36:41,424 - Siamese network - INFO - test | batch idx 0 loss 0.002490445738658309
+2022-03-03 11:36:42,926 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:36:43,005 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 2.127611696778331e-05, lr 0.00017781374157644728 
+2022-03-03 11:36:44,616 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 4.0971775888465345e-05, lr 0.00017005243352409332 
+2022-03-03 11:36:46,218 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 2.2678941604681313e-05, lr 0.0001626660878482253 
+2022-03-03 11:36:47,815 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 2.893834243877791e-05, lr 0.0001556619939802614 
+2022-03-03 11:36:49,416 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 2.887864684453234e-05, lr 0.0001490470641152345 
+2022-03-03 11:36:50,931 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:36:50,965 - Siamese network - INFO - test | batch idx 0 loss 0.002533428370952606
+2022-03-03 11:36:52,462 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:36:52,541 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 2.7206020604353398e-05, lr 0.0001428278263902913 
+2022-03-03 11:36:54,146 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 4.0067738154903054e-05, lr 0.00013701041844220858 
+2022-03-03 11:36:55,754 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 3.170460695400834e-05, lr 0.0001316005813502869 
+2022-03-03 11:36:57,364 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 3.7216697819530964e-05, lr 0.00012660365397059855 
+2022-03-03 11:36:58,966 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 4.83932308270596e-05, lr 0.00012202456766718092 
+2022-03-03 11:37:00,492 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:37:00,526 - Siamese network - INFO - test | batch idx 0 loss 0.0013707766775041819
+2022-03-03 11:37:02,025 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:37:02,106 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 2.489148209861014e-05, lr 0.00011786784144537567 
+2022-03-03 11:37:03,711 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 1.780167076503858e-05, lr 0.00011413757749211607 
+2022-03-03 11:37:05,314 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 1.5658953998354264e-05, lr 0.0001108374571275637 
+2022-03-03 11:37:06,922 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 2.951010719698388e-05, lr 0.00010797073717209008 
+2022-03-03 11:37:08,525 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 3.622000076575205e-05, lr 0.00010554024673218806 
+2022-03-03 11:37:10,047 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:37:10,081 - Siamese network - INFO - test | batch idx 0 loss 0.00035594726796261966
+2022-03-03 11:37:11,573 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:37:11,652 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 2.641467835928779e-05, lr 0.00010354838440848502 
+2022-03-03 11:37:13,260 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 4.0849336073733866e-05, lr 0.000101997115928614 
+2022-03-03 11:37:14,857 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 1.5023417290649377e-05, lr 0.0001008879722072778 
+2022-03-03 11:37:16,465 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 2.2952905055717565e-05, lr 0.00010022204783542078 
+2022-03-03 11:37:18,015 - Siamese network - INFO - test | batch idx 0 loss 0.0028134507592767477
+2022-03-03 11:37:19,518 - Siamese network - INFO - test acc 1.0 
+2022-03-03 11:37:20,597 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.2694493532180786, lr 0.001 
+2022-03-03 11:37:22,116 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:37:22,150 - Siamese network - INFO - test | batch idx 0 loss 0.018617214635014534
+2022-03-03 11:37:23,657 - Siamese network - INFO - test acc 0.9574468085106383 
+2022-03-03 11:37:23,736 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.03940127417445183, lr 0.0009997779521645793 
+2022-03-03 11:37:25,349 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.0036735772155225277, lr 0.0009991120277927223 
+2022-03-03 11:37:26,959 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.001795781310647726, lr 0.000998002884071386 
+2022-03-03 11:37:28,566 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.0007419663015753031, lr 0.000996451615591515 
+2022-03-03 11:37:30,177 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0009045681799761951, lr 0.000994459753267812 
+2022-03-03 11:37:31,699 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:37:31,732 - Siamese network - INFO - test | batch idx 0 loss 0.009836739860475063
+2022-03-03 11:37:33,238 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:37:33,316 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.00025132307200692594, lr 0.00099202926282791 
+2022-03-03 11:37:34,912 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0009452356025576591, lr 0.0009891625428724363 
+2022-03-03 11:37:36,510 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.0008214898407459259, lr 0.000985862422507884 
+2022-03-03 11:37:38,121 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.0008178632706403732, lr 0.0009821321585546244 
+2022-03-03 11:37:39,724 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0005924127763137221, lr 0.0009779754323328191 
+2022-03-03 11:37:41,246 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:37:41,279 - Siamese network - INFO - test | batch idx 0 loss 0.012309389188885689
+2022-03-03 11:37:42,780 - Siamese network - INFO - test acc 0.9680851063829787 
+2022-03-03 11:37:42,858 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.0006070966483093798, lr 0.0009733963460294015 
+2022-03-03 11:37:44,458 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0002483473508618772, lr 0.0009683994186497131 
+2022-03-03 11:37:46,060 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.0004386824439279735, lr 0.0009629895815577914 
+2022-03-03 11:37:47,663 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.00048472327762283385, lr 0.0009571721736097088 
+2022-03-03 11:37:49,266 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.0002011229662457481, lr 0.0009509529358847655 
+2022-03-03 11:37:50,779 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:37:50,813 - Siamese network - INFO - test | batch idx 0 loss 0.012492856942117214
+2022-03-03 11:37:52,319 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:37:52,397 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.0003273140755482018, lr 0.0009443380060197386 
+2022-03-03 11:37:53,999 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.0002168885403079912, lr 0.0009373339121517746 
+2022-03-03 11:37:55,599 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.00015497629647143185, lr 0.0009299475664759069 
+2022-03-03 11:37:57,207 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.0002939726982731372, lr 0.0009221862584235528 
+2022-03-03 11:37:58,816 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.0003759085957426578, lr 0.0009140576474687263 
+2022-03-03 11:38:00,331 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:38:00,365 - Siamese network - INFO - test | batch idx 0 loss 0.030576560646295547
+2022-03-03 11:38:01,864 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:38:01,942 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.0003269042354077101, lr 0.0009055697555690607 
+2022-03-03 11:38:03,540 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.00031393393874168396, lr 0.0008967309592491052 
+2022-03-03 11:38:05,150 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.00033205063664354384, lr 0.0008875499813337069 
+2022-03-03 11:38:06,747 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 9.029977081809193e-05, lr 0.0008780358823396353 
+2022-03-03 11:38:08,343 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 7.445593655575067e-05, lr 0.0008681980515339464 
+2022-03-03 11:38:09,858 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:38:09,891 - Siamese network - INFO - test | batch idx 0 loss 0.015357284806668758
+2022-03-03 11:38:11,393 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:38:11,471 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.00017638951248954982, lr 0.0008580461976679099 
+2022-03-03 11:38:13,078 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 0.00017645760090090334, lr 0.0008475903393956434 
+2022-03-03 11:38:14,679 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 0.00010107953130500391, lr 0.0008368407953869105 
+2022-03-03 11:38:16,284 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 0.00014135711535345763, lr 0.0008258081741438395 
+2022-03-03 11:38:17,892 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 8.076872472884133e-05, lr 0.0008145033635316131 
+2022-03-03 11:38:19,417 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:38:19,450 - Siamese network - INFO - test | batch idx 0 loss 0.009865451604127884
+2022-03-03 11:38:20,951 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:38:21,031 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.0001068647179636173, lr 0.0008029375200334589 
+2022-03-03 11:38:22,638 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 0.0001188991591334343, lr 0.0007911220577405485 
+2022-03-03 11:38:24,244 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 7.567388820461929e-05, lr 0.0007790686370876671 
+2022-03-03 11:38:25,865 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 0.0001059232818079181, lr 0.0007667891533457719 
+2022-03-03 11:38:27,481 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 9.285815758630633e-05, lr 0.000754295724882796 
+2022-03-03 11:38:29,001 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:38:29,033 - Siamese network - INFO - test | batch idx 0 loss 0.020023738965392113
+2022-03-03 11:38:30,547 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:38:30,627 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 0.0001481245126342401, lr 0.0007416006812042827 
+2022-03-03 11:38:32,234 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 0.00010023739014286548, lr 0.0007287165507856513 
+2022-03-03 11:38:33,847 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 0.00010046699753729627, lr 0.0007156560487081052 
+2022-03-03 11:38:35,452 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 0.0012390569318085909, lr 0.0007024320641103813 
+2022-03-03 11:38:37,060 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 0.0028313903603702784, lr 0.0006890576474687264 
+2022-03-03 11:38:38,573 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:38:38,607 - Siamese network - INFO - test | batch idx 0 loss 0.01599046029150486
+2022-03-03 11:38:40,118 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:38:40,198 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.0003153261495754123, lr 0.0006755459977176532 
+2022-03-03 11:38:41,805 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 0.00012747956498060375, lr 0.0006619104492241846 
+2022-03-03 11:38:43,420 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 0.00011918285599676892, lr 0.0006481644586284443 
+2022-03-03 11:38:45,026 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 5.907841114094481e-05, lr 0.0006343215915635762 
+2022-03-03 11:38:46,632 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 0.00010782386380014941, lr 0.000620395509268104 
+2022-03-03 11:38:48,149 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:38:48,182 - Siamese network - INFO - test | batch idx 0 loss 0.018391840159893036
+2022-03-03 11:38:49,686 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:38:49,766 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 6.353335629682988e-05, lr 0.000606399955103937 
+2022-03-03 11:38:51,371 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 8.315102604683489e-05, lr 0.0005923487409933315 
+2022-03-03 11:38:52,975 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 4.665308733819984e-05, lr 0.0005782557337881911 
+2022-03-03 11:38:54,576 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 5.453718767967075e-05, lr 0.0005641348415851578 
+2022-03-03 11:38:56,176 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 4.7639201511628926e-05, lr 0.00055 
+2022-03-03 11:38:57,696 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:38:57,729 - Siamese network - INFO - test | batch idx 0 loss 0.011279252357780933
+2022-03-03 11:38:59,240 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:38:59,319 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 4.871151759289205e-05, lr 0.0005358651584148423 
+2022-03-03 11:39:00,923 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 6.357407983159646e-05, lr 0.000521744266211809 
+2022-03-03 11:39:02,525 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 8.18807675386779e-05, lr 0.0005076512590066686 
+2022-03-03 11:39:04,132 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 3.7298643292160705e-05, lr 0.0004936000448960632 
+2022-03-03 11:39:05,738 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 6.090559691074304e-05, lr 0.0004796044907318961 
+2022-03-03 11:39:07,258 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:39:07,292 - Siamese network - INFO - test | batch idx 0 loss 0.02007291093468666
+2022-03-03 11:39:08,797 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:39:08,877 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 3.456226477283053e-05, lr 0.0004656784084364239 
+2022-03-03 11:39:10,481 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 8.467817679047585e-06, lr 0.00045183554137155597 
+2022-03-03 11:39:12,084 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 1.4229347470973153e-05, lr 0.0004380895507758153 
+2022-03-03 11:39:13,688 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 1.6925809177337214e-05, lr 0.00042445400228234684 
+2022-03-03 11:39:15,290 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 3.5690485674422234e-05, lr 0.0004109423525312738 
+2022-03-03 11:39:16,809 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:39:16,843 - Siamese network - INFO - test | batch idx 0 loss 0.0038867683615535498
+2022-03-03 11:39:18,348 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:39:18,427 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 4.1413091821596026e-05, lr 0.0003975679358896189 
+2022-03-03 11:39:20,033 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 2.2715030354447663e-05, lr 0.000384343951291895 
+2022-03-03 11:39:21,638 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 5.2159582992317155e-05, lr 0.00037128344921434864 
+2022-03-03 11:39:23,240 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 2.838585351128131e-05, lr 0.0003583993187957173 
+2022-03-03 11:39:24,849 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 2.1851699784747325e-05, lr 0.00034570427511720393 
+2022-03-03 11:39:26,372 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:39:26,406 - Siamese network - INFO - test | batch idx 0 loss 0.010438033379614353
+2022-03-03 11:39:27,911 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:39:27,990 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 3.683501563500613e-05, lr 0.0003332108466542281 
+2022-03-03 11:39:29,594 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 3.1769286579219624e-05, lr 0.0003209313629123329 
+2022-03-03 11:39:31,209 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 6.972089613554999e-05, lr 0.0003088779422594514 
+2022-03-03 11:39:32,811 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 1.8721686501521617e-05, lr 0.0002970624799665412 
+2022-03-03 11:39:34,421 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 2.282175591972191e-05, lr 0.00028549663646838715 
+2022-03-03 11:39:35,940 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:39:35,973 - Siamese network - INFO - test | batch idx 0 loss 0.0029576814267784357
+2022-03-03 11:39:37,473 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:39:37,551 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 4.18953386542853e-05, lr 0.00027419182585616055 
+2022-03-03 11:39:39,162 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 6.384599691955373e-05, lr 0.0002631592046130896 
+2022-03-03 11:39:40,764 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 2.9864422685932368e-05, lr 0.00025240966060435674 
+2022-03-03 11:39:42,371 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 3.15212419081945e-05, lr 0.00024195380233209008 
+2022-03-03 11:39:43,974 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 3.2829524570843205e-05, lr 0.00023180194846605365 
+2022-03-03 11:39:45,493 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:39:45,527 - Siamese network - INFO - test | batch idx 0 loss 0.006916334852576256
+2022-03-03 11:39:47,034 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:39:47,114 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 3.0316401534946635e-05, lr 0.0002219641176603649 
+2022-03-03 11:39:48,718 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 1.3567253517976496e-05, lr 0.00021245001866629322 
+2022-03-03 11:39:50,324 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 3.637647387222387e-05, lr 0.00020326904075089488 
+2022-03-03 11:39:51,930 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 2.2913993234396912e-05, lr 0.00019443024443093932 
+2022-03-03 11:39:53,531 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 2.697754644032102e-05, lr 0.00018594235253127368 
+2022-03-03 11:39:55,052 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:39:55,085 - Siamese network - INFO - test | batch idx 0 loss 0.0050338804721832275
+2022-03-03 11:39:56,582 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:39:56,662 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 1.877850627352018e-05, lr 0.00017781374157644728 
+2022-03-03 11:39:58,270 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 4.1494276956655085e-05, lr 0.00017005243352409332 
+2022-03-03 11:39:59,874 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 2.973754089907743e-05, lr 0.0001626660878482253 
+2022-03-03 11:40:02,380 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 1.8526596250012517e-05, lr 0.0001556619939802614 
+2022-03-03 11:40:04,027 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 2.3166481696534902e-05, lr 0.0001490470641152345 
+2022-03-03 11:40:05,582 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:40:05,617 - Siamese network - INFO - test | batch idx 0 loss 0.018703434616327286
+2022-03-03 11:40:07,157 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:40:07,238 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 3.8334364944603294e-05, lr 0.0001428278263902913 
+2022-03-03 11:40:08,892 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 2.5304005248472095e-05, lr 0.00013701041844220858 
+2022-03-03 11:40:10,542 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 1.70372240972938e-05, lr 0.0001316005813502869 
+2022-03-03 11:40:12,187 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 1.973732105398085e-05, lr 0.00012660365397059855 
+2022-03-03 11:40:13,834 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 4.463801087695174e-05, lr 0.00012202456766718092 
+2022-03-03 11:40:15,395 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:40:15,430 - Siamese network - INFO - test | batch idx 0 loss 0.013348625041544437
+2022-03-03 11:40:16,981 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:40:17,061 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 2.3197177142719738e-05, lr 0.00011786784144537567 
+2022-03-03 11:40:18,714 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 2.006257818720769e-05, lr 0.00011413757749211607 
+2022-03-03 11:40:20,360 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 2.4245071472250856e-05, lr 0.0001108374571275637 
+2022-03-03 11:40:22,015 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 2.328835216758307e-05, lr 0.00010797073717209008 
+2022-03-03 11:40:23,668 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 2.333531119802501e-05, lr 0.00010554024673218806 
+2022-03-03 11:40:25,227 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:40:25,262 - Siamese network - INFO - test | batch idx 0 loss 0.012086198665201664
+2022-03-03 11:40:26,811 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:40:26,892 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 1.4051140169613063e-05, lr 0.00010354838440848502 
+2022-03-03 11:40:28,549 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 2.321112697245553e-05, lr 0.000101997115928614 
+2022-03-03 11:40:30,197 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 1.8524036931921728e-05, lr 0.0001008879722072778 
+2022-03-03 11:40:31,843 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 2.5762132281670347e-05, lr 0.00010022204783542078 
+2022-03-03 11:40:33,437 - Siamese network - INFO - test | batch idx 0 loss 0.006059722509235144
+2022-03-03 11:40:34,981 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:40:36,111 - Siamese network - INFO - Epoch: 0 batch 0 | train loss 0.2712708115577698, lr 0.001 
+2022-03-03 11:40:37,679 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:40:37,715 - Siamese network - INFO - test | batch idx 0 loss 0.01839579828083515
+2022-03-03 11:40:39,269 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:40:39,350 - Siamese network - INFO - Epoch: 1 batch 0 | train loss 0.013563830405473709, lr 0.0009997779521645793 
+2022-03-03 11:40:41,003 - Siamese network - INFO - Epoch: 2 batch 0 | train loss 0.002721232594922185, lr 0.0009991120277927223 
+2022-03-03 11:40:42,655 - Siamese network - INFO - Epoch: 3 batch 0 | train loss 0.0014456742210313678, lr 0.000998002884071386 
+2022-03-03 11:40:44,306 - Siamese network - INFO - Epoch: 4 batch 0 | train loss 0.001036216621287167, lr 0.000996451615591515 
+2022-03-03 11:40:45,959 - Siamese network - INFO - Epoch: 5 batch 0 | train loss 0.0014482433907687664, lr 0.000994459753267812 
+2022-03-03 11:40:47,523 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:40:47,558 - Siamese network - INFO - test | batch idx 0 loss 0.022111551836133003
+2022-03-03 11:40:49,097 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:40:49,177 - Siamese network - INFO - Epoch: 6 batch 0 | train loss 0.0008022334077395499, lr 0.00099202926282791 
+2022-03-03 11:40:50,838 - Siamese network - INFO - Epoch: 7 batch 0 | train loss 0.0008809710270725191, lr 0.0009891625428724363 
+2022-03-03 11:40:52,490 - Siamese network - INFO - Epoch: 8 batch 0 | train loss 0.000839065934997052, lr 0.000985862422507884 
+2022-03-03 11:40:54,134 - Siamese network - INFO - Epoch: 9 batch 0 | train loss 0.00030087411869317293, lr 0.0009821321585546244 
+2022-03-03 11:40:55,788 - Siamese network - INFO - Epoch: 10 batch 0 | train loss 0.0003373057406861335, lr 0.0009779754323328191 
+2022-03-03 11:40:57,622 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:40:57,655 - Siamese network - INFO - test | batch idx 0 loss 0.024250319227576256
+2022-03-03 11:40:59,177 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:40:59,258 - Siamese network - INFO - Epoch: 11 batch 0 | train loss 0.00045359283103607595, lr 0.0009733963460294015 
+2022-03-03 11:41:00,855 - Siamese network - INFO - Epoch: 12 batch 0 | train loss 0.0006999991601333022, lr 0.0009683994186497131 
+2022-03-03 11:41:02,449 - Siamese network - INFO - Epoch: 13 batch 0 | train loss 0.00040427036583423615, lr 0.0009629895815577914 
+2022-03-03 11:41:04,049 - Siamese network - INFO - Epoch: 14 batch 0 | train loss 0.0005197809659875929, lr 0.0009571721736097088 
+2022-03-03 11:41:05,648 - Siamese network - INFO - Epoch: 15 batch 0 | train loss 0.0003948416269849986, lr 0.0009509529358847655 
+2022-03-03 11:41:07,166 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:41:07,199 - Siamese network - INFO - test | batch idx 0 loss 0.007275324314832687
+2022-03-03 11:41:08,706 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:41:08,785 - Siamese network - INFO - Epoch: 16 batch 0 | train loss 0.0002613785327412188, lr 0.0009443380060197386 
+2022-03-03 11:41:10,386 - Siamese network - INFO - Epoch: 17 batch 0 | train loss 0.00025108366389758885, lr 0.0009373339121517746 
+2022-03-03 11:41:11,981 - Siamese network - INFO - Epoch: 18 batch 0 | train loss 0.00023849171702750027, lr 0.0009299475664759069 
+2022-03-03 11:41:13,587 - Siamese network - INFO - Epoch: 19 batch 0 | train loss 0.00015350971079897135, lr 0.0009221862584235528 
+2022-03-03 11:41:15,203 - Siamese network - INFO - Epoch: 20 batch 0 | train loss 0.0004471713618841022, lr 0.0009140576474687263 
+2022-03-03 11:41:16,721 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:41:16,755 - Siamese network - INFO - test | batch idx 0 loss 0.020001472905278206
+2022-03-03 11:41:18,262 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:41:18,341 - Siamese network - INFO - Epoch: 21 batch 0 | train loss 0.0002015038626268506, lr 0.0009055697555690607 
+2022-03-03 11:41:19,949 - Siamese network - INFO - Epoch: 22 batch 0 | train loss 0.00018830694898497313, lr 0.0008967309592491052 
+2022-03-03 11:41:21,556 - Siamese network - INFO - Epoch: 23 batch 0 | train loss 0.00018887217447627336, lr 0.0008875499813337069 
+2022-03-03 11:41:23,165 - Siamese network - INFO - Epoch: 24 batch 0 | train loss 0.00013767334166914225, lr 0.0008780358823396353 
+2022-03-03 11:41:24,770 - Siamese network - INFO - Epoch: 25 batch 0 | train loss 0.00022765836911275983, lr 0.0008681980515339464 
+2022-03-03 11:41:26,287 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:41:26,321 - Siamese network - INFO - test | batch idx 0 loss 0.017441947013139725
+2022-03-03 11:41:27,822 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:41:27,900 - Siamese network - INFO - Epoch: 26 batch 0 | train loss 0.0001368895755149424, lr 0.0008580461976679099 
+2022-03-03 11:41:29,500 - Siamese network - INFO - Epoch: 27 batch 0 | train loss 9.294370101997629e-05, lr 0.0008475903393956434 
+2022-03-03 11:41:31,101 - Siamese network - INFO - Epoch: 28 batch 0 | train loss 0.00015961501048877835, lr 0.0008368407953869105 
+2022-03-03 11:41:32,709 - Siamese network - INFO - Epoch: 29 batch 0 | train loss 0.0001226675813086331, lr 0.0008258081741438395 
+2022-03-03 11:41:34,314 - Siamese network - INFO - Epoch: 30 batch 0 | train loss 4.128709406359121e-05, lr 0.0008145033635316131 
+2022-03-03 11:41:35,833 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:41:35,867 - Siamese network - INFO - test | batch idx 0 loss 0.0022097392939031124
+2022-03-03 11:41:37,370 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:41:37,449 - Siamese network - INFO - Epoch: 31 batch 0 | train loss 0.00026626596809364855, lr 0.0008029375200334589 
+2022-03-03 11:41:39,058 - Siamese network - INFO - Epoch: 32 batch 0 | train loss 9.103838237933815e-05, lr 0.0007911220577405485 
+2022-03-03 11:41:40,661 - Siamese network - INFO - Epoch: 33 batch 0 | train loss 0.00036842405097559094, lr 0.0007790686370876671 
+2022-03-03 11:41:42,263 - Siamese network - INFO - Epoch: 34 batch 0 | train loss 8.835009793983772e-05, lr 0.0007667891533457719 
+2022-03-03 11:41:43,865 - Siamese network - INFO - Epoch: 35 batch 0 | train loss 6.706561543978751e-05, lr 0.000754295724882796 
+2022-03-03 11:41:45,380 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:41:45,414 - Siamese network - INFO - test | batch idx 0 loss 0.0031734188087284565
+2022-03-03 11:41:46,913 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:41:46,992 - Siamese network - INFO - Epoch: 36 batch 0 | train loss 4.9942886107601225e-05, lr 0.0007416006812042827 
+2022-03-03 11:41:48,591 - Siamese network - INFO - Epoch: 37 batch 0 | train loss 7.331185042858124e-05, lr 0.0007287165507856513 
+2022-03-03 11:41:50,192 - Siamese network - INFO - Epoch: 38 batch 0 | train loss 0.000569716386962682, lr 0.0007156560487081052 
+2022-03-03 11:41:51,791 - Siamese network - INFO - Epoch: 39 batch 0 | train loss 0.0006673817406408489, lr 0.0007024320641103813 
+2022-03-03 11:41:53,401 - Siamese network - INFO - Epoch: 40 batch 0 | train loss 0.00022778338461648673, lr 0.0006890576474687264 
+2022-03-03 11:41:54,920 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:41:54,953 - Siamese network - INFO - test | batch idx 0 loss 0.004468665458261967
+2022-03-03 11:41:56,463 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:41:56,540 - Siamese network - INFO - Epoch: 41 batch 0 | train loss 0.00032613141229376197, lr 0.0006755459977176532 
+2022-03-03 11:41:58,145 - Siamese network - INFO - Epoch: 42 batch 0 | train loss 0.0004949229769408703, lr 0.0006619104492241846 
+2022-03-03 11:41:59,749 - Siamese network - INFO - Epoch: 43 batch 0 | train loss 0.00023045839043334126, lr 0.0006481644586284443 
+2022-03-03 11:42:01,351 - Siamese network - INFO - Epoch: 44 batch 0 | train loss 9.01943858480081e-05, lr 0.0006343215915635762 
+2022-03-03 11:42:02,950 - Siamese network - INFO - Epoch: 45 batch 0 | train loss 5.5116423027357087e-05, lr 0.000620395509268104 
+2022-03-03 11:42:04,464 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:42:04,496 - Siamese network - INFO - test | batch idx 0 loss 0.0036626532673835754
+2022-03-03 11:42:05,994 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:42:06,074 - Siamese network - INFO - Epoch: 46 batch 0 | train loss 7.0557689468842e-05, lr 0.000606399955103937 
+2022-03-03 11:42:07,679 - Siamese network - INFO - Epoch: 47 batch 0 | train loss 0.00010856307198991999, lr 0.0005923487409933315 
+2022-03-03 11:42:09,280 - Siamese network - INFO - Epoch: 48 batch 0 | train loss 6.58131466479972e-05, lr 0.0005782557337881911 
+2022-03-03 11:42:10,878 - Siamese network - INFO - Epoch: 49 batch 0 | train loss 4.802951661986299e-05, lr 0.0005641348415851578 
+2022-03-03 11:42:12,481 - Siamese network - INFO - Epoch: 50 batch 0 | train loss 5.5343374697258696e-05, lr 0.00055 
+2022-03-03 11:42:13,997 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:42:14,031 - Siamese network - INFO - test | batch idx 0 loss 0.0004631631018128246
+2022-03-03 11:42:15,528 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:42:15,607 - Siamese network - INFO - Epoch: 51 batch 0 | train loss 6.171215500216931e-05, lr 0.0005358651584148423 
+2022-03-03 11:42:17,212 - Siamese network - INFO - Epoch: 52 batch 0 | train loss 4.2519441194599494e-05, lr 0.000521744266211809 
+2022-03-03 11:42:18,819 - Siamese network - INFO - Epoch: 53 batch 0 | train loss 4.9139620386995375e-05, lr 0.0005076512590066686 
+2022-03-03 11:42:20,425 - Siamese network - INFO - Epoch: 54 batch 0 | train loss 4.555915074888617e-05, lr 0.0004936000448960632 
+2022-03-03 11:42:22,032 - Siamese network - INFO - Epoch: 55 batch 0 | train loss 3.674182516988367e-05, lr 0.0004796044907318961 
+2022-03-03 11:42:23,554 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:42:23,589 - Siamese network - INFO - test | batch idx 0 loss 0.0031199902296066284
+2022-03-03 11:42:25,090 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:42:25,168 - Siamese network - INFO - Epoch: 56 batch 0 | train loss 2.7946904083364643e-05, lr 0.0004656784084364239 
+2022-03-03 11:42:26,775 - Siamese network - INFO - Epoch: 57 batch 0 | train loss 5.233606862020679e-05, lr 0.00045183554137155597 
+2022-03-03 11:42:28,383 - Siamese network - INFO - Epoch: 58 batch 0 | train loss 4.777007779921405e-05, lr 0.0004380895507758153 
+2022-03-03 11:42:29,993 - Siamese network - INFO - Epoch: 59 batch 0 | train loss 1.5455292668775655e-05, lr 0.00042445400228234684 
+2022-03-03 11:42:31,601 - Siamese network - INFO - Epoch: 60 batch 0 | train loss 1.8582300981506705e-05, lr 0.0004109423525312738 
+2022-03-03 11:42:33,121 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:42:33,154 - Siamese network - INFO - test | batch idx 0 loss 0.005950520280748606
+2022-03-03 11:42:34,660 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:42:34,739 - Siamese network - INFO - Epoch: 61 batch 0 | train loss 2.8716734959743917e-05, lr 0.0003975679358896189 
+2022-03-03 11:42:36,343 - Siamese network - INFO - Epoch: 62 batch 0 | train loss 2.2837397409603e-05, lr 0.000384343951291895 
+2022-03-03 11:42:37,951 - Siamese network - INFO - Epoch: 63 batch 0 | train loss 2.0439516447368078e-05, lr 0.00037128344921434864 
+2022-03-03 11:42:39,559 - Siamese network - INFO - Epoch: 64 batch 0 | train loss 5.803145177196711e-05, lr 0.0003583993187957173 
+2022-03-03 11:42:41,172 - Siamese network - INFO - Epoch: 65 batch 0 | train loss 2.340288119739853e-05, lr 0.00034570427511720393 
+2022-03-03 11:42:42,689 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:42:42,722 - Siamese network - INFO - test | batch idx 0 loss 0.012211605906486511
+2022-03-03 11:42:44,227 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:42:44,306 - Siamese network - INFO - Epoch: 66 batch 0 | train loss 9.193141522700898e-06, lr 0.0003332108466542281 
+2022-03-03 11:42:45,915 - Siamese network - INFO - Epoch: 67 batch 0 | train loss 7.028494292171672e-05, lr 0.0003209313629123329 
+2022-03-03 11:42:47,527 - Siamese network - INFO - Epoch: 68 batch 0 | train loss 2.3023305402603e-05, lr 0.0003088779422594514 
+2022-03-03 11:42:49,143 - Siamese network - INFO - Epoch: 69 batch 0 | train loss 4.706036270363256e-05, lr 0.0002970624799665412 
+2022-03-03 11:42:50,757 - Siamese network - INFO - Epoch: 70 batch 0 | train loss 2.4525861590518616e-05, lr 0.00028549663646838715 
+2022-03-03 11:42:52,268 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:42:52,302 - Siamese network - INFO - test | batch idx 0 loss 0.004173687659204006
+2022-03-03 11:42:53,812 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:42:53,890 - Siamese network - INFO - Epoch: 71 batch 0 | train loss 2.6660711228032596e-05, lr 0.00027419182585616055 
+2022-03-03 11:42:55,506 - Siamese network - INFO - Epoch: 72 batch 0 | train loss 4.090212314622477e-05, lr 0.0002631592046130896 
+2022-03-03 11:42:57,109 - Siamese network - INFO - Epoch: 73 batch 0 | train loss 2.5668152375146747e-05, lr 0.00025240966060435674 
+2022-03-03 11:42:58,717 - Siamese network - INFO - Epoch: 74 batch 0 | train loss 3.9098777051549405e-05, lr 0.00024195380233209008 
+2022-03-03 11:43:00,326 - Siamese network - INFO - Epoch: 75 batch 0 | train loss 4.1501669329591095e-05, lr 0.00023180194846605365 
+2022-03-03 11:43:01,844 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:43:01,878 - Siamese network - INFO - test | batch idx 0 loss 0.0007290926878340542
+2022-03-03 11:43:03,384 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:43:03,462 - Siamese network - INFO - Epoch: 76 batch 0 | train loss 5.4413307225331664e-05, lr 0.0002219641176603649 
+2022-03-03 11:43:05,069 - Siamese network - INFO - Epoch: 77 batch 0 | train loss 4.319845174904913e-05, lr 0.00021245001866629322 
+2022-03-03 11:43:06,672 - Siamese network - INFO - Epoch: 78 batch 0 | train loss 8.820292350719683e-06, lr 0.00020326904075089488 
+2022-03-03 11:43:08,280 - Siamese network - INFO - Epoch: 79 batch 0 | train loss 2.0998792024329305e-05, lr 0.00019443024443093932 
+2022-03-03 11:43:09,884 - Siamese network - INFO - Epoch: 80 batch 0 | train loss 1.971973142644856e-05, lr 0.00018594235253127368 
+2022-03-03 11:43:11,407 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:43:11,439 - Siamese network - INFO - test | batch idx 0 loss 0.0034138038754463196
+2022-03-03 11:43:12,940 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:43:13,019 - Siamese network - INFO - Epoch: 81 batch 0 | train loss 3.559249671525322e-05, lr 0.00017781374157644728 
+2022-03-03 11:43:14,624 - Siamese network - INFO - Epoch: 82 batch 0 | train loss 3.4381719160592183e-05, lr 0.00017005243352409332 
+2022-03-03 11:43:16,235 - Siamese network - INFO - Epoch: 83 batch 0 | train loss 2.885120738937985e-05, lr 0.0001626660878482253 
+2022-03-03 11:43:17,843 - Siamese network - INFO - Epoch: 84 batch 0 | train loss 1.5549238014500588e-05, lr 0.0001556619939802614 
+2022-03-03 11:43:19,453 - Siamese network - INFO - Epoch: 85 batch 0 | train loss 2.8869553716504015e-05, lr 0.0001490470641152345 
+2022-03-03 11:43:20,977 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:43:21,010 - Siamese network - INFO - test | batch idx 0 loss 0.00898023508489132
+2022-03-03 11:43:22,511 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:43:22,589 - Siamese network - INFO - Epoch: 86 batch 0 | train loss 3.670191654236987e-05, lr 0.0001428278263902913 
+2022-03-03 11:43:24,200 - Siamese network - INFO - Epoch: 87 batch 0 | train loss 1.5114625966816675e-05, lr 0.00013701041844220858 
+2022-03-03 11:43:25,814 - Siamese network - INFO - Epoch: 88 batch 0 | train loss 6.570536243089009e-06, lr 0.0001316005813502869 
+2022-03-03 11:43:27,444 - Siamese network - INFO - Epoch: 89 batch 0 | train loss 2.5735926101333462e-05, lr 0.00012660365397059855 
+2022-03-03 11:43:29,050 - Siamese network - INFO - Epoch: 90 batch 0 | train loss 2.0268480511731468e-05, lr 0.00012202456766718092 
+2022-03-03 11:43:30,567 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:43:30,601 - Siamese network - INFO - test | batch idx 0 loss 0.007559000048786402
+2022-03-03 11:43:32,100 - Siamese network - INFO - test acc 0.9893617021276596 
+2022-03-03 11:43:32,180 - Siamese network - INFO - Epoch: 91 batch 0 | train loss 2.7254398446530104e-05, lr 0.00011786784144537567 
+2022-03-03 11:43:33,781 - Siamese network - INFO - Epoch: 92 batch 0 | train loss 4.8516521928831935e-05, lr 0.00011413757749211607 
+2022-03-03 11:43:35,381 - Siamese network - INFO - Epoch: 93 batch 0 | train loss 2.409680928394664e-05, lr 0.0001108374571275637 
+2022-03-03 11:43:36,990 - Siamese network - INFO - Epoch: 94 batch 0 | train loss 2.512867831683252e-05, lr 0.00010797073717209008 
+2022-03-03 11:43:38,596 - Siamese network - INFO - Epoch: 95 batch 0 | train loss 1.781987157301046e-05, lr 0.00010554024673218806 
+2022-03-03 11:43:40,112 - Siamese network - INFO - train acc 1.0 
+2022-03-03 11:43:40,145 - Siamese network - INFO - test | batch idx 0 loss 0.0015322938561439514
+2022-03-03 11:43:41,646 - Siamese network - INFO - test acc 0.9787234042553191 
+2022-03-03 11:43:41,726 - Siamese network - INFO - Epoch: 96 batch 0 | train loss 1.731199699861463e-05, lr 0.00010354838440848502 
+2022-03-03 11:43:43,333 - Siamese network - INFO - Epoch: 97 batch 0 | train loss 3.1429528462467715e-05, lr 0.000101997115928614 
+2022-03-03 11:43:44,937 - Siamese network - INFO - Epoch: 98 batch 0 | train loss 1.5406209058710374e-05, lr 0.0001008879722072778 
+2022-03-03 11:43:46,543 - Siamese network - INFO - Epoch: 99 batch 0 | train loss 1.8179338439949788e-05, lr 0.00010022204783542078 
+2022-03-03 11:43:48,091 - Siamese network - INFO - test | batch idx 0 loss 0.0034254631027579308
+2022-03-03 11:43:49,595 - Siamese network - INFO - test acc 0.9893617021276596 
